@@ -1,30 +1,66 @@
-[
-  {
-    "path": "LifeRoute/docs/contract_v1.md",
-    "filename": "01-contract_v1.md.txt",
-    "sha256": "8d9c83151e399fda4d0a370010fcd41d4cf68160f444c0b48ec6309f6cdb9523",
-    "lines": 292,
-    "bytes": 6950
-  },
-  {
-    "path": "LifeRoute/shared/constants/api.json",
-    "filename": "02-api.json.txt",
-    "sha256": "735b5417903346d4b9bdbba1bfe1f78a13fadd71aec9168b5ab0357704e449dd",
-    "lines": 3,
-    "bytes": 34
-  },
-  {
-    "path": "LifeRoute/shared/constants/consent_modes.json",
-    "filename": "03-consent_modes.json.txt",
-    "sha256": "988920e0a0fc22957438c3d28e29ffcf8bdc5933b2748678cb0137cfc8ad10c7",
-    "lines": 7,
-    "bytes": 90
-  },
-  {
-    "path": "LifeRoute/shared/constants/roles.json",
-    "filename": "04-roles.json.txt",
-    "sha256": "112cd5bd28d82ade785ec62dbbd3ec93100b4701a7add359f69a69cd3a075a70",
-    "lines": 8,
-    "bytes": 106
-  }
-]
+{
+  "project": "liferoute",
+  "repository": "https://github.com/Arham-Sethi/liferoute-design",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/.gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "backend/README.md",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/backend/README.md",
+      "sha256": "632ae9d884501be0adbccab1ae1eb2e1f4d1fa40ec18b6a41d072018edf4508e"
+    },
+    {
+      "path": "docs/contract_v1.md",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/docs/contract_v1.md",
+      "sha256": "8d9c83151e399fda4d0a370010fcd41d4cf68160f444c0b48ec6309f6cdb9523"
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/docs/README.md",
+      "sha256": "dd81df82b4c9306948fa562de74a5322cf62c1622e72d6ae1052e1d2c8a9291c"
+    },
+    {
+      "path": "FILE-INDEX.md",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/FILE-INDEX.md",
+      "sha256": "e165257265de21668ec53b1b31ede48726580fefe81e423c8670382e9eb10793"
+    },
+    {
+      "path": "frontend/README.md",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/frontend/README.md",
+      "sha256": "78c6a891b76108651cf3852bd6e02a9f4dbfa49ec16e68ed1b4de9189c9c16d3"
+    },
+    {
+      "path": "publication-manifest.json",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/publication-manifest.json",
+      "sha256": "51b081fc57705e5f128f9431f7943e28f639a976ada8408c6cdb5010133fafaf"
+    },
+    {
+      "path": "README.md",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/README.md",
+      "sha256": "5afd465383b6c659ad3600477c1cbaf052221e94cd825df9a30bf8f7e61a8b40"
+    },
+    {
+      "path": "shared/constants/api.json",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/shared/constants/api.json",
+      "sha256": "735b5417903346d4b9bdbba1bfe1f78a13fadd71aec9168b5ab0357704e449dd"
+    },
+    {
+      "path": "shared/constants/consent_modes.json",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/shared/constants/consent_modes.json",
+      "sha256": "988920e0a0fc22957438c3d28e29ffcf8bdc5933b2748678cb0137cfc8ad10c7"
+    },
+    {
+      "path": "shared/constants/roles.json",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/shared/constants/roles.json",
+      "sha256": "112cd5bd28d82ade785ec62dbbd3ec93100b4701a7add359f69a69cd3a075a70"
+    },
+    {
+      "path": "shared/README.md",
+      "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/shared/README.md",
+      "sha256": "45ad08702a3c3e73bad22947c846b5d47e6d0d3060786d0b81b71105a8788c48"
+    }
+  ]
+}

@@ -1,8 +1,0 @@
-{
-    "roles": [
-        "patient",
-        "doctor",
-        "dispatcher",
-        "admin"
-    ]
-}

@@ -1,1 +1,16 @@
-[]
+{
+  "project": "ev-cruise",
+  "repository": "https://github.com/Arham-Sethi/engineering-projects",
+  "files": [
+    {
+      "path": "EV-Cruise/ev-cruise-original.pdf",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/EV-Cruise/ev-cruise-original.pdf",
+      "sha256": "0bfa34699859472a3da294c718d4fbe5e95a406529f35b9e8697693587404ec4"
+    },
+    {
+      "path": "EV-Cruise/ev-cruise-portfolio.pdf",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/EV-Cruise/ev-cruise-portfolio.pdf",
+      "sha256": "37a9fd62f59f7d87116328db68b340d244544cd75a47144dc59c567319f3248b"
+    }
+  ]
+}

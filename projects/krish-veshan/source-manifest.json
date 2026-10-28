@@ -1,1 +1,21 @@
-[]
+{
+  "project": "krish-veshan",
+  "repository": "https://github.com/Arham-Sethi/social-research",
+  "files": [
+    {
+      "path": "krish-veshan/krish-veshan-dissertation.pdf",
+      "url": "https://github.com/Arham-Sethi/social-research/blob/main/krish-veshan/krish-veshan-dissertation.pdf",
+      "sha256": "433399790831022dd75e351e856506c1700415dc60bd35570f7730d908843a1a"
+    },
+    {
+      "path": "krish-veshan/krish-veshan-portfolio.pdf",
+      "url": "https://github.com/Arham-Sethi/social-research/blob/main/krish-veshan/krish-veshan-portfolio.pdf",
+      "sha256": "53def9ceb299eb71987c55c105252514dc9f78797e6e93f663e3f559512b693b"
+    },
+    {
+      "path": "krish-veshan/README.md",
+      "url": "https://github.com/Arham-Sethi/social-research/blob/main/krish-veshan/README.md",
+      "sha256": "4548954f3d0636295b239d794d6f9cb76edb365a5c0f9e646518a5863fdb5a11"
+    }
+  ]
+}

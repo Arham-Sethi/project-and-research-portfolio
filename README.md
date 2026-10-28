@@ -1,15 +1,9 @@
 # Project and Research Portfolio
 
-15 independent project entries. Open index.html locally. Formal static website for GitHub Pages.
+[Live portfolio](https://arham-sethi.github.io/project-and-research-portfolio/)
 
-## Current update
-Helios and EV Cruise are researched/prototyped concepts, with original technical chapters rather than pasted slides. Krish Veshan (2023-24) and Krishi Connect (2024-25) have independent social-research entries and dissertations. Roblocs and Maverick Motorsports retain descriptive subtitles. WERM, KS-Probe and both tool-use papers have manuscript PDF links; manuscripts remain unchanged.
+15 project entries with technical companions, original manuscripts/dissertations, engineering drawings and direct GitHub repository/file links. The site is static and served by GitHub Pages from main.
 
-## Verification
-33 HTML pages, 580 valid local references, 15 technical companions totalling 96 pages. New companion pages rendered and visually inspected. All four manuscript hashes verified. Complete original 53-page engineering atlas retained. No raw notebooks or credential material published.
+Amplify AI source remains private; public verification links to its product website and Chrome Web Store. All other source/evidence pages link the reviewed public snapshots and their complete file indexes.
 
-## Research and evidence
-Engineering analysis distinguishes supplied specifications, illustrative calculations and proposed validation. Original team attribution is retained. The author confirmed a surname error in the 2023-24 approval sheet; the original remains unchanged. Large WERM archive version reconciliation and complete repository releases remain later work.
-
-## Publication
-GitHub Pages serves this repository from the main branch root. The source can be served from the root of a public repository, retaining .nojekyll and relative paths. The separately delivered GitHub-repository-plan.md describes later complete-source releases.
+[GitHub account](https://github.com/Arham-Sethi)

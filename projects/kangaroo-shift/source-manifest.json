@@ -1,23 +1,18 @@
-[
-  {
-    "path": "kangaroo/backend/app/core/engine/ucs_generator.py",
-    "filename": "01-ucs_generator.py.txt",
-    "sha256": "dcd2d9bd4126eea5de6c9ba9990284b48041e56f40fbc896286c26d771534e12",
-    "lines": 276,
-    "bytes": 9133
-  },
-  {
-    "path": "kangaroo/backend/app/core/engine/compressor.py",
-    "filename": "02-compressor.py.txt",
-    "sha256": "1acbfa8895a6c25040bd1105016e30d55ae081b5103f7742c69c2d8b6c0681c5",
-    "lines": 456,
-    "bytes": 15952
-  },
-  {
-    "path": "kangaroo/backend/app/core/storage/vault.py",
-    "filename": "03-vault.py.txt",
-    "sha256": "e34f33f230ea95b0a65e46e9f0fba7d413005d7225d4381ba354cee0526435b5",
-    "lines": 182,
-    "bytes": 6170
-  }
-]
+{
+  "project": "kangaroo-shift",
+  "repository": "https://github.com/Arham-Sethi/kangaroo",
+  "files": [
+    {
+      "path": "backend/app/core/engine/ucs_generator.py",
+      "url": "https://github.com/Arham-Sethi/kangaroo/blob/main/backend/app/core/engine/ucs_generator.py"
+    },
+    {
+      "path": "backend/app/core/engine/compressor.py",
+      "url": "https://github.com/Arham-Sethi/kangaroo/blob/main/backend/app/core/engine/compressor.py"
+    },
+    {
+      "path": "backend/app/core/storage/vault.py",
+      "url": "https://github.com/Arham-Sethi/kangaroo/blob/main/backend/app/core/storage/vault.py"
+    }
+  ]
+}

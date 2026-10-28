@@ -1,7 +1,0 @@
-{
-    "consent_modes": [
-        "none",
-        "doctors",
-        "custom"
-    ]
-}

@@ -1,1 +1,21 @@
-[]
+{
+  "project": "krishi-connect",
+  "repository": "https://github.com/Arham-Sethi/social-research",
+  "files": [
+    {
+      "path": "krishi-connect/krishi-connect-dissertation.pdf",
+      "url": "https://github.com/Arham-Sethi/social-research/blob/main/krishi-connect/krishi-connect-dissertation.pdf",
+      "sha256": "49ad247f126a29c80b16ea3cb8d10f21fed6ebede5511e65f139f6837f86ac3b"
+    },
+    {
+      "path": "krishi-connect/krishi-connect-portfolio.pdf",
+      "url": "https://github.com/Arham-Sethi/social-research/blob/main/krishi-connect/krishi-connect-portfolio.pdf",
+      "sha256": "07bcefb7912e6dcc0ceebebabb27faef2eccd00fe1a9720a1d8f43307bc9a9a2"
+    },
+    {
+      "path": "krishi-connect/README.md",
+      "url": "https://github.com/Arham-Sethi/social-research/blob/main/krishi-connect/README.md",
+      "sha256": "1aee19966df09b9e7c23961d62d7d19b5bc155c9b10dfe2f22f5300b23c15f6e"
+    }
+  ]
+}

@@ -1,1 +1,16 @@
-[]
+{
+  "project": "helios",
+  "repository": "https://github.com/Arham-Sethi/engineering-projects",
+  "files": [
+    {
+      "path": "Helios/helios-original.pdf",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Helios/helios-original.pdf",
+      "sha256": "a7e8bcc301260f707ae3a8bc971893ec75ec8d23eb6f1019eee4e84928b65d94"
+    },
+    {
+      "path": "Helios/helios-portfolio.pdf",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Helios/helios-portfolio.pdf",
+      "sha256": "3f252d4b3556c2602198b082587aa83f342e2c36d130d0c52a5196d79b3bb500"
+    }
+  ]
+}

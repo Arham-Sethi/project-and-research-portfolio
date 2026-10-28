@@ -1,30 +1,36 @@
-[
-  {
-    "path": "Roblocs/asc.py",
-    "filename": "01-asc.py.txt",
-    "sha256": "d24b0de02e3b9b0d2c7243a71fa6f6ed48c23477755f92a581558805d2d5dc3a",
-    "lines": 321,
-    "bytes": 11857
-  },
-  {
-    "path": "Roblocs/g_ler.py",
-    "filename": "02-g_ler.py.txt",
-    "sha256": "e1cc608757de85682e866f68859b04a8f2401285da749118bebb7fe594226d19",
-    "lines": 86,
-    "bytes": 2810
-  },
-  {
-    "path": "Roblocs/servobutton.py",
-    "filename": "03-servobutton.py.txt",
-    "sha256": "23c0d3b4ae482c1cd6d47072753634d4658193346bd6c3da8de8a266ba526c8d",
-    "lines": 43,
-    "bytes": 1123
-  },
-  {
-    "path": "Roblocs/dataset_gen.py",
-    "filename": "04-dataset_gen.py.txt",
-    "sha256": "96f0836c14f4094e5ee6319b4ef729ba495e98a036e65ec5d7e057e7c5628346",
-    "lines": 80,
-    "bytes": 2516
-  }
-]
+{
+  "project": "robotics",
+  "repository": "https://github.com/Arham-Sethi/engineering-projects",
+  "files": [
+    {
+      "path": "Roblocs/asc.py",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/asc.py",
+      "sha256": "d24b0de02e3b9b0d2c7243a71fa6f6ed48c23477755f92a581558805d2d5dc3a"
+    },
+    {
+      "path": "Roblocs/dataset_gen.py",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/dataset_gen.py",
+      "sha256": "96f0836c14f4094e5ee6319b4ef729ba495e98a036e65ec5d7e057e7c5628346"
+    },
+    {
+      "path": "Roblocs/g_ler.py",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/g_ler.py",
+      "sha256": "e1cc608757de85682e866f68859b04a8f2401285da749118bebb7fe594226d19"
+    },
+    {
+      "path": "Roblocs/robotics-original.pdf",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/robotics-original.pdf",
+      "sha256": "19a2cf41e32d0175a1140842cd6151706c4563d9c7ed0b7bd82b2c24f27ca543"
+    },
+    {
+      "path": "Roblocs/robotics-portfolio.pdf",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/robotics-portfolio.pdf",
+      "sha256": "8195e4d5bc8ea0164a89cf42d38f52bd70dec1aadff4cb2e0e4e16a5fa687669"
+    },
+    {
+      "path": "Roblocs/servobutton.py",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/servobutton.py",
+      "sha256": "23c0d3b4ae482c1cd6d47072753634d4658193346bd6c3da8de8a266ba526c8d"
+    }
+  ]
+}

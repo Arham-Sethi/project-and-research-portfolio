@@ -1,23 +1,116 @@
-[
-  {
-    "path": "AI Moisture Detection/Backend/model.py",
-    "filename": "01-model.py.txt",
-    "sha256": "d2fa6153eb0238dfc248ee9870e38b10a10f192b7e3e9c48b07847ba66a2be39",
-    "lines": 156,
-    "bytes": 5624
-  },
-  {
-    "path": "AI Moisture Detection/Backend/schemas.py",
-    "filename": "02-schemas.py.txt",
-    "sha256": "684c6a739878a50a717488f92a444a83243e71a0a3bb5687f95a10280befc04b",
-    "lines": 21,
-    "bytes": 455
-  },
-  {
-    "path": "AI Moisture Detection/Backend/utils.py",
-    "filename": "03-utils.py.txt",
-    "sha256": "243fef36ba8c12a58406c08a38cef252593f469f776a8b3aceabfb7e6c79995f",
-    "lines": 29,
-    "bytes": 753
-  }
-]
+{
+  "project": "agrodry",
+  "repository": "https://github.com/Arham-Sethi/agrodry-stubby",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/.gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/afsccnn/afsc_cinematic.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/afsccnn/afsc_cinematic.py",
+      "sha256": "2fc571b649f412ef2e8fdc9600b543e2e8c0143d113b294d90307c6bc0e8325d"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/afsccnn/afscpremoistnettrain.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/afsccnn/afscpremoistnettrain.py",
+      "sha256": "aac586e4d3ef25175811819fc99924b76070bf5e427e46ab070d31e11f02349f"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Backend/app.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/app.py",
+      "sha256": "01de0c50ae9e0ef384c104b93841d4dc7f5defe1e50957a481b20c0754b719fa"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Backend/model.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/model.py",
+      "sha256": "d2fa6153eb0238dfc248ee9870e38b10a10f192b7e3e9c48b07847ba66a2be39"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Backend/README.md",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Backend/requirments.txt",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/requirments.txt",
+      "sha256": "af8b175f7b927d5be9d1c4e8a32a6da292ff3d25f1627457e83aaabfacc82907"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Backend/schemas.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/schemas.py",
+      "sha256": "684c6a739878a50a717488f92a444a83243e71a0a3bb5687f95a10280befc04b"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Backend/utils.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/utils.py",
+      "sha256": "243fef36ba8c12a58406c08a38cef252593f469f776a8b3aceabfb7e6c79995f"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Data/cleaning.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Data/cleaning.py",
+      "sha256": "524d84f1722c58dd6081c79313c46442f9ba5ffefd067e9d5627ba5a0d18727b"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Data/csv1.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Data/csv1.py",
+      "sha256": "fb49b19926f0538c55eb9c732707fa7c6deede9d85a2d08ef8668e5384c76d6b"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Data/mainapp1.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Data/mainapp1.py",
+      "sha256": "bd462e925c8214144a6080a357bcbc722912691bf457187794c7bae818ac8158"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Data/splitdata.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Data/splitdata.py",
+      "sha256": "9f2c1f25f9f403ed107e9835467c2844d5be4148dae690af03945cbc1e04f671"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Draft1/posttrainft.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Draft1/posttrainft.py",
+      "sha256": "f85a04424c8a58649cb0c10d2d6e671015201e244ec0a1506db7980c6e3c9984"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Draft1/train_pretrain.py",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Draft1/train_pretrain.py",
+      "sha256": "c2f92b7ff9ddb80ee2aeed93f6bf01e4537d07632bd9df18cfdcfcbe0eb1af59"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Frontend/AgroDry_frontend.html",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Frontend/AgroDry_frontend.html",
+      "sha256": "5bfb9d0ce67e392318bb1b5be2dec74ed6176cd6e5bd84511ea76ec5ab362bbd"
+    },
+    {
+      "path": "desktop/AI Moisture Detection/Frontend/index.html",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Frontend/index.html",
+      "sha256": "359037e48a55860349eba7c99fc581f4210bf8b5ba6f2dbee00506fdbabad91f"
+    },
+    {
+      "path": "FILE-INDEX.md",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/FILE-INDEX.md",
+      "sha256": "b7f952fbcd63c0dd724eede1f8d5548d3536198cdd4c1de4b724e69bdfc472ee"
+    },
+    {
+      "path": "IMPORT-INVENTORY.md",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/IMPORT-INVENTORY.md",
+      "sha256": "9f795c051421353d3edb88f1b068b48c95bf4be27f02d57612002cc7cac55353"
+    },
+    {
+      "path": "publication-manifest.json",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/publication-manifest.json",
+      "sha256": "f808bf7e6783bb3df994cb29a95fbe150975e26de610c06d3b227b8cce46ce65"
+    },
+    {
+      "path": "README.md",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/README.md",
+      "sha256": "67477d0a0759bb1b7f200df629832ce714e207b062de3018dd48ccd1cb2c6221"
+    },
+    {
+      "path": "source-manifest.json",
+      "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/source-manifest.json",
+      "sha256": "4b9f5b60d7fe86858b19d056193b9e3ed6eb241e5714238869319f50911b91a8"
+    }
+  ]
+}

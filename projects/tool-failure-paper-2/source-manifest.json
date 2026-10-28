@@ -1,1 +1,76 @@
-[]
+{
+  "project": "tool-failure-paper-2",
+  "repository": "https://github.com/Arham-Sethi/when-tools-get-in-the-way",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/.gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": ".gitignore",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/.gitignore",
+      "sha256": "9946fdfbb25aca4ab101f9644551e6a582f65ffd0ff76b34ad2cc6a250634cf0"
+    },
+    {
+      "path": "FILE-INDEX.md",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/FILE-INDEX.md",
+      "sha256": "813ad07b32b50a4a7ee281c9748303759719b50fe609bb2e3f8946715f745441"
+    },
+    {
+      "path": "manuscript.pdf",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/manuscript.pdf",
+      "sha256": "033d4e217d1e006687d3149f802a2ff0b875bf6c6d92c6c79152f9d4a601dbb8"
+    },
+    {
+      "path": "notebooks/Copy_of_workflowreadonly (1).ipynb",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/notebooks/Copy_of_workflowreadonly%20%281%29.ipynb",
+      "sha256": "26994f55ea9f3cd29557e8b4cdb6eeb5f6fec31944ee93d5eee4fd3522911048"
+    },
+    {
+      "path": "notebooks/paper2_astronomy_FULL_(3).ipynb",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/notebooks/paper2_astronomy_FULL_%283%29.ipynb",
+      "sha256": "fc58e8ce8c5bea904e8ea23e31b0762be1a442eb903966a4bdac298ce9ab89d8"
+    },
+    {
+      "path": "notebooks/paper2_biology_FULL_(2).ipynb",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/notebooks/paper2_biology_FULL_%282%29.ipynb",
+      "sha256": "1691a980c9e757a9d8e6a6ce0999289680976d3c30fe5b5229549857f060146d"
+    },
+    {
+      "path": "notebooks/paper2_geography_FULL_(2).ipynb",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/notebooks/paper2_geography_FULL_%282%29.ipynb",
+      "sha256": "89cbc4d7b12cd948e3d8a502d7112d9c803a0570ac273f2e5f906fe264c06f61"
+    },
+    {
+      "path": "provenance.json",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/provenance.json",
+      "sha256": "dfc961626b483832105a0de259f098c2c6ce057cedcb033e74388bb136da5a30"
+    },
+    {
+      "path": "publication-manifest.json",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/publication-manifest.json",
+      "sha256": "0e67d10c8651affe37b8621f1794bec703eed968d88d86e3155cce337b5f2c91"
+    },
+    {
+      "path": "README.md",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/README.md",
+      "sha256": "72a712f88d55adf29890cbc8b8e973edec4d1a0f9db070b6542a654854fea91d"
+    },
+    {
+      "path": "requirements.txt",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/requirements.txt",
+      "sha256": "ed738ab7d2a06470fb6e69cf8038cae36778cc84f6a1cde7cb360ace85c4757d"
+    },
+    {
+      "path": "SANITIZATION.md",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/SANITIZATION.md",
+      "sha256": "093b30239650a61bc20ea77b63efcaa75d271db9270690c0151c7e135588bce9"
+    },
+    {
+      "path": "security-scan.json",
+      "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/security-scan.json",
+      "sha256": "f9e82ce34113980fbe50c4ca4d9b9209c5133ffd92df1cafd6ee22f92814b402"
+    }
+  ]
+}

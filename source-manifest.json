@@ -1,274 +1,1641 @@
 [
   {
-    "id": "werm",
-    "title": "WERM",
-    "sources": [
+    "project": "werm",
+    "repository": "https://github.com/Arham-Sethi/werm",
+    "files": [
       {
-        "path": "WERM/src/fusion_engine.py",
-        "filename": "01-fusion_engine.py.txt",
-        "sha256": "82e621bd988ef67d6df70156ee7bbfe214e94e5c0e6f77845da0087b216522fd",
-        "lines": 81,
-        "bytes": 2549
+        "path": ".gitattributes",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/.gitattributes",
+        "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
       },
       {
-        "path": "WERM/src/tillage_module.py",
-        "filename": "02-tillage_module.py.txt",
-        "sha256": "8c008deb108f4f43345062a376daaca9b127cd7fde61f6936386959b83e22a34",
-        "lines": 122,
-        "bytes": 3478
+        "path": "archive-exclusions.json",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/archive-exclusions.json",
+        "sha256": "32459500097f751099e75e3ead1949cd49d60ac684ec4ab6ee59cef8ac840725"
       },
       {
-        "path": "WERM/src/temperature_gdd.py",
-        "filename": "03-temperature_gdd.py.txt",
-        "sha256": "135ae66e517ddc07f886d8ef9321de3d88a19be55561afb9a1830e5538629cab",
-        "lines": 113,
-        "bytes": 3067
+        "path": "desktop/grid_imgs.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/grid_imgs.csv",
+        "sha256": "9e13f657125ae02671aef708fdb033352f620eff3f31a03de2a4454ca2c61b30"
       },
       {
-        "path": "WERM/src/experiment_runner.py",
-        "filename": "04-experiment_runner.py.txt",
-        "sha256": "a722c8f20e663abd97bbaac96247dfc837fea59f542ab95815f9476a22b12bf6",
-        "lines": 68,
-        "bytes": 2103
+        "path": "desktop/results/fusion_comparison/agreement_metrics.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/fusion_comparison/agreement_metrics.csv",
+        "sha256": "a50085707dbdffb0ff38c125d64897aee119191c2d4d6e00eea4663f4820dc79"
+      },
+      {
+        "path": "desktop/results/fusion_comparison/disagreement_images.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/fusion_comparison/disagreement_images.csv",
+        "sha256": "165119e6cf8cd763a94ac8bd3311809ebc9c5a9f3d431b87ec2edc7fb8a81d26"
+      },
+      {
+        "path": "desktop/results/fusion_comparison/epsilon_sensitivity.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/fusion_comparison/epsilon_sensitivity.csv",
+        "sha256": "66f188b29aa665b7cdd4fe4360915eab279feb8a0438aa1a325bf6d7e6ea9419"
+      },
+      {
+        "path": "desktop/results/fusion_comparison/farmer_agreement.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/fusion_comparison/farmer_agreement.csv",
+        "sha256": "d4e439fe4da15f3e77880346a46737757d2a2b790d369e1586aaf3a800a022a3"
+      },
+      {
+        "path": "desktop/results/fusion_comparison/per_image_detail.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/fusion_comparison/per_image_detail.csv",
+        "sha256": "ab2f2f9b9affd6415735f768f70009807d5900144e43733055b04dda6340f782"
+      },
+      {
+        "path": "desktop/results/fusion_comparison/suppression_pattern.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/fusion_comparison/suppression_pattern.csv",
+        "sha256": "d4671d32becf0152b3dea769c863a6b796fb8b950206eb0c30f673d2d2dc590f"
+      },
+      {
+        "path": "desktop/results/spatial_diagnostics/block_stats.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/spatial_diagnostics/block_stats.csv",
+        "sha256": "963099492d2bc07dab6dcfb9a7b54441e8b7b765851c0f0fb9e081a2134c27a9"
+      },
+      {
+        "path": "desktop/results/spatial_diagnostics/morans_i_results.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/spatial_diagnostics/morans_i_results.csv",
+        "sha256": "6fbd4cb0b5565d690154ab2276b077a803ad958a7b1ceb83ca8c9ef1b60cf898"
+      },
+      {
+        "path": "desktop/results/spatial_diagnostics/semivariogram_params.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/spatial_diagnostics/semivariogram_params.csv",
+        "sha256": "61815d463ff34630e864f3b3c9447aa566d0cf1192f77d17bf41661bd79c4022"
+      },
+      {
+        "path": "desktop/results/spatial_diagnostics/spatial_full.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/spatial_diagnostics/spatial_full.csv",
+        "sha256": "de528572c5c2b6ee9e5709239b07c3072f5274345eb9519dfa5a18ee32290676"
+      },
+      {
+        "path": "desktop/results/species_sensitivity/gdd_comparison.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/species_sensitivity/gdd_comparison.csv",
+        "sha256": "ffad0b76d533d8cb746a66ec94362b3873af55d92eb035d21156d1090c9cc7bd"
+      },
+      {
+        "path": "desktop/results/species_sensitivity/migration_matrix_Chenopodium_album_fixed.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/species_sensitivity/migration_matrix_Chenopodium_album_fixed.csv",
+        "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d"
+      },
+      {
+        "path": "desktop/results/species_sensitivity/migration_matrix_Chenopodium_album_rescaled.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/species_sensitivity/migration_matrix_Chenopodium_album_rescaled.csv",
+        "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d"
+      },
+      {
+        "path": "desktop/results/species_sensitivity/migration_matrix_Melilotus_indica_fixed.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/species_sensitivity/migration_matrix_Melilotus_indica_fixed.csv",
+        "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d"
+      },
+      {
+        "path": "desktop/results/species_sensitivity/migration_matrix_Melilotus_indica_rescaled.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/species_sensitivity/migration_matrix_Melilotus_indica_rescaled.csv",
+        "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d"
+      },
+      {
+        "path": "desktop/results/species_sensitivity/migration_matrix_Phalaris_minor_fixed.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/species_sensitivity/migration_matrix_Phalaris_minor_fixed.csv",
+        "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d"
+      },
+      {
+        "path": "desktop/results/species_sensitivity/migration_matrix_Phalaris_minor_rescaled.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/species_sensitivity/migration_matrix_Phalaris_minor_rescaled.csv",
+        "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d"
+      },
+      {
+        "path": "desktop/results/species_sensitivity/per_image_scores.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/species_sensitivity/per_image_scores.csv",
+        "sha256": "184dcf3cd0197823c94ff7b488cc5017bd2e52e5a660ff534d24ae3b687685be"
+      },
+      {
+        "path": "desktop/results/species_sensitivity/species_summary.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/results/species_sensitivity/species_summary.csv",
+        "sha256": "1fcb46c51f39944638c696e269a93817e28761394b81981fbbb3fb815bba9e1b"
+      },
+      {
+        "path": "desktop/run_spatial_werm.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/run_spatial_werm.py",
+        "sha256": "29e524dcdc9dffe6a84158c73d2deabff2d12366866238a05762fbb079823e24"
+      },
+      {
+        "path": "desktop/spatial_analysis.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/spatial_analysis.py",
+        "sha256": "35f600c9b20bd05c23dd57cc858061d4f5aa4110ea7075929a5580dae7fd0c9a"
+      },
+      {
+        "path": "desktop/spatial_werm_outputs.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/spatial_werm_outputs.csv",
+        "sha256": "bed222f037c742a1aa274f9bf8c1ffcac3008bc2edc9e10410664c1de002e4fb"
+      },
+      {
+        "path": "desktop/WERM/config/fusion_config.yaml",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/config/fusion_config.yaml",
+        "sha256": "329a119d54eedb07426cf2e60768185bb725e948e87bf235dbec6a12250afc9c"
+      },
+      {
+        "path": "desktop/WERM/src/check_soil_mask.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/check_soil_mask.py",
+        "sha256": "7ffe72d7fccc88ab28839481c9a23d097bbe14f600932d00e1b769fba09e420b"
+      },
+      {
+        "path": "desktop/WERM/src/color_index.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/color_index.py",
+        "sha256": "1da1befce12d4af3fc6ee65a29a6811b0c4291bac3f3b68963d9bfe50d7aa879"
+      },
+      {
+        "path": "desktop/WERM/src/color_robustness_test.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/color_robustness_test.py",
+        "sha256": "9953584e398ef7c8c1027c6c44b7b950658bf34b2832b2f9c708fc277715cd50"
+      },
+      {
+        "path": "desktop/WERM/src/experiment_runner.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiment_runner.py",
+        "sha256": "a722c8f20e663abd97bbaac96247dfc837fea59f542ab95815f9476a22b12bf6"
+      },
+      {
+        "path": "desktop/WERM/src/experiments/config.json",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiments/config.json",
+        "sha256": "d25afb46527e8f6e9d31757cd2b8e1b9b8a1411cda0478852b2fe69e50b40c40"
+      },
+      {
+        "path": "desktop/WERM/src/experiments/run_step0_freeze_drive.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiments/run_step0_freeze_drive.py",
+        "sha256": "d819aa4c44101d0f0962f0f9fc681627b6e83c22a64dabdc23c55d9691a7ebc3"
+      },
+      {
+        "path": "desktop/WERM/src/experiments/run_step1_alpha_sweep.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiments/run_step1_alpha_sweep.py",
+        "sha256": "7747c7e940b21a5631f926debb8ce1c5ed6cc6402d745ab1655d15ac983f8fee"
+      },
+      {
+        "path": "desktop/WERM/src/experiments/run_step1_variance_alpha0_alpha1.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiments/run_step1_variance_alpha0_alpha1.py",
+        "sha256": "906e75b9a0bcd49013666c9bb1a91e6327256988e2090da071c9f92381aeb611"
+      },
+      {
+        "path": "desktop/WERM/src/experiments/run_step2_additive_vs_geometric.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiments/run_step2_additive_vs_geometric.py",
+        "sha256": "65cd9b1159575f7fcdf0d768b82d5096ee17637fce92b9f921b88af8ed791172"
+      },
+      {
+        "path": "desktop/WERM/src/experiments/run_step3_weight_robustness.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiments/run_step3_weight_robustness.py",
+        "sha256": "5518ea693e300eb7d8bd2121d27b48a9ec9649283d0b500699118fdc09242639"
+      },
+      {
+        "path": "desktop/WERM/src/experiments/run_step4_lofo.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiments/run_step4_lofo.py",
+        "sha256": "9c2bf529e2a583f38c750643212b634581f97d7cc65351922aa343b51c6c1f7a"
+      },
+      {
+        "path": "desktop/WERM/src/experiments/run_step5_scalers.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiments/run_step5_scalers.py",
+        "sha256": "3067187e9d9a4218e2f311d4a71f5b96854b14b18db148014b5182aad348c1f2"
+      },
+      {
+        "path": "desktop/WERM/src/experiments/run_step6_noise.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiments/run_step6_noise.py",
+        "sha256": "96580c3ffff426c19b891c0c33b5bb06f34245ec9b4145daf75fdd10d28080b9"
+      },
+      {
+        "path": "desktop/WERM/src/experiments/run_step7_dirichlet.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/experiments/run_step7_dirichlet.py",
+        "sha256": "60158baa44b4c2902252466ddea8b5d6b7c38e630e19e3f4fa5d9654af796389"
+      },
+      {
+        "path": "desktop/WERM/src/fuse_risk.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/fuse_risk.py",
+        "sha256": "297099540e23e6851a6b54d4fe8df086e2828aafa9e11cb9cbed4a5492db5ff7"
+      },
+      {
+        "path": "desktop/WERM/src/fusion_audit.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/fusion_audit.py",
+        "sha256": "9a372da82fe1fe416d7d25448c7d1948cf907626ab8dd7c1d0f9e9505e158bca"
+      },
+      {
+        "path": "desktop/WERM/src/fusion_comparison.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/fusion_comparison.py",
+        "sha256": "f5bdaae8034ee710b8dfa52f0019f42e5c83d4ecb9f3298d3337b95cec0b9b12"
+      },
+      {
+        "path": "desktop/WERM/src/fusion_engine.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/fusion_engine.py",
+        "sha256": "82e621bd988ef67d6df70156ee7bbfe214e94e5c0e6f77845da0087b216522fd"
+      },
+      {
+        "path": "desktop/WERM/src/fusion_final.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/fusion_final.py",
+        "sha256": "2b120505bc9002ef1acb7a84870ebce6c7589bd96aa514f29acf0dc4ee0245df"
+      },
+      {
+        "path": "desktop/WERM/src/fusion_infer.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/fusion_infer.py",
+        "sha256": "42d3f54026d55f09cc1e4e9255cd8d9701838b26777588a6594841f98c42896f"
+      },
+      {
+        "path": "desktop/WERM/src/fusion_infer1.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/fusion_infer1.py",
+        "sha256": "fee854f873c931e252eb642499c0ce1ff3fd9305bb8955594406fc070c20a120"
+      },
+      {
+        "path": "desktop/WERM/src/infer_moisture_to_csv.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/infer_moisture_to_csv.py",
+        "sha256": "2b9fa7495bc56b101dbbcb7446a021308705bb6eaf3d66d29079c77ee2df07e3"
+      },
+      {
+        "path": "desktop/WERM/src/infer_residue_to_csv.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/infer_residue_to_csv.py",
+        "sha256": "faa07e9a1bd11f7e58efbd11014d2f4c465a9fc937afe6fd192ed7a90274fc56"
+      },
+      {
+        "path": "desktop/WERM/src/insa_regression.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/insa_regression.py",
+        "sha256": "dc91b928c0d748bc750927771b367efd7efdd0a55e3643af09f41697bd4a69de"
+      },
+      {
+        "path": "desktop/WERM/src/make_all_paper_figures_v2.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/make_all_paper_figures_v2.py",
+        "sha256": "561222a251759f72f32291452f25b080c02c805dab77ff7bf5f4b859fba3f8b1"
+      },
+      {
+        "path": "desktop/WERM/src/make_all_paper_figures_v3.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/make_all_paper_figures_v3.py",
+        "sha256": "ade543b7e1452eca0293aec2d6327c0a02c0c89413ce758c62ac395a7794bfba"
+      },
+      {
+        "path": "desktop/WERM/src/moisture_multitask.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/moisture_multitask.py",
+        "sha256": "b7e85f6210aca7cc03ff4b3398cf568b381fb25263063145ac0082da5a0117ec"
+      },
+      {
+        "path": "desktop/WERM/src/residue_cover/dataset_residue.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/residue_cover/dataset_residue.py",
+        "sha256": "6a7154e732d3f1a1b6fd688d56de00c715eff06ef65c58190250a859e87f52b5"
+      },
+      {
+        "path": "desktop/WERM/src/residue_cover/dump_val_preds_residue.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/residue_cover/dump_val_preds_residue.py",
+        "sha256": "c630b1ebfa6554877074f4a752e5ce1e34e0afa5c478c61a78950b76fcfd6932"
+      },
+      {
+        "path": "desktop/WERM/src/residue_cover/eval_residue_strat_test.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/residue_cover/eval_residue_strat_test.py",
+        "sha256": "4c99c0b45a793112dd3027ceebda4ff676efb7d733d3e9a6e581e04818d62748"
+      },
+      {
+        "path": "desktop/WERM/src/residue_cover/residue_baseline_classical.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/residue_cover/residue_baseline_classical.py",
+        "sha256": "4f09be3b29c489ed527520f2bc5f22d36081c9f8fb86d65bad465f2f092b12f7"
+      },
+      {
+        "path": "desktop/WERM/src/residue_cover/train_residue.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/residue_cover/train_residue.py",
+        "sha256": "2167b4a4d98ba7cf2507c58f96121e629b03775b440be06f54ebe87a1c583b1a"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/batch_compare.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/batch_compare.py",
+        "sha256": "2b07badf2c1f80190046fb6231d5f37917b252a674eaac95d01e79ae214e1452"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/config.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/config.py",
+        "sha256": "94b54e265b8e4838b509f5902f7367e146d2ef61ce66603561fa6f5ff880dd74"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/config2.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/config2.py",
+        "sha256": "38eae9741817a75daf40d2c2898ece93e66fc1db1ecd0566bd229dfa642fc452"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/dataset.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/dataset.py",
+        "sha256": "d1d43e4796b88f998a7882df318131338c290285b3adc724cedceffd7d001374"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/dump_val_preds_from_ckpt.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/dump_val_preds_from_ckpt.py",
+        "sha256": "4b7c0f063cb459c4a7fb79110cdbe6c22cbf042ecaf73682d09127a07ee5a4fb"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/eval.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/eval.py",
+        "sha256": "9009af58cf21963bddc28e38a461e199169de0e61fbb6a056f8377694221abd6"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/eval_from_val_preds_quick.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/eval_from_val_preds_quick.py",
+        "sha256": "f7adf51a77e85ac7e8017346b7a68c2797746021d3709e2db8ddc1953f1f9611"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/eval_unseen_moisture.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/eval_unseen_moisture.py",
+        "sha256": "c0b622b6178af152d82710f6b790ed34a6622caaa3b3d7b188c63356a6113e9b"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/infer_folder.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/infer_folder.py",
+        "sha256": "cdb9aac79cb75fdadd6664fc07a210346800e8cbdfd619dc91aedeacd9cc0261"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/sim.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/sim.py",
+        "sha256": "ba04ef752cfcaa1248e036281667f745591d0459943dd385f9935c1435c88057"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/svm_eval.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/svm_eval.py",
+        "sha256": "4ca6d6327bfd1005b7adca1db66570ffceb136e6a38f53f9525318127bcdc1d3"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/train.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/train.py",
+        "sha256": "660b3684fc702a6f1f7a27b63a8501d7517768d0453d127e9e7cef2b8dbfa933"
+      },
+      {
+        "path": "desktop/WERM/src/soil_moisture/utils.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/soil_moisture/utils.py",
+        "sha256": "316223a05fdee9bf900d5fc2e8556250d3c0498cc17cf0fa4a87d66d8de66a94"
+      },
+      {
+        "path": "desktop/WERM/src/species_sensitivity.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/species_sensitivity.py",
+        "sha256": "309e242afac7e0cb5cd8a8f74a40a28cd2552148bff022d0442abaa12d9da795"
+      },
+      {
+        "path": "desktop/WERM/src/temperature_gdd.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/temperature_gdd.py",
+        "sha256": "135ae66e517ddc07f886d8ef9321de3d88a19be55561afb9a1830e5538629cab"
+      },
+      {
+        "path": "desktop/WERM/src/tillage_module.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/tillage_module.py",
+        "sha256": "8c008deb108f4f43345062a376daaca9b127cd7fde61f6936386959b83e22a34"
+      },
+      {
+        "path": "desktop/WERM/src/tillage_texture.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/tillage_texture.py",
+        "sha256": "835260c78897191132b0bb22bae46d23b84d704469beb81e442dac057c818eca"
+      },
+      {
+        "path": "desktop/WERM/src/tillage_weight_search.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/tillage_weight_search.py",
+        "sha256": "40b90a0edbe17070d503fb81c4bf09fea75fe169efb58b32729d639191a9f152"
+      },
+      {
+        "path": "desktop/WERM/src/validate_tillage_texture.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/desktop/WERM/src/validate_tillage_texture.py",
+        "sha256": "6494564ba441fddf14816ffd26760978b58d3d95514ff4077ddea920bc653316"
+      },
+      {
+        "path": "drive-archive-001/WERM/outputs/fusion/fusion_results.csv",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/drive-archive-001/WERM/outputs/fusion/fusion_results.csv",
+        "sha256": "3cafd80604f812df84f939077124b0fa4d13e61fab9ebac65751dc585bb06eb2"
+      },
+      {
+        "path": "drive-archive-001/WERM/outputs/runs/AA_80_20_ep20_20260127_044503/compare_softmax_vs_svm.json",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/drive-archive-001/WERM/outputs/runs/AA_80_20_ep20_20260127_044503/compare_softmax_vs_svm.json",
+        "sha256": "ee40f8052c6038c80fb408739c03d6173c5c6f831ddf52df0514350707eec27e"
+      },
+      {
+        "path": "drive-archive-001/WERM/outputs/runs/moisture_70_30_ep30_20260126_110719/compare_softmax_vs_svm.json",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/drive-archive-001/WERM/outputs/runs/moisture_70_30_ep30_20260126_110719/compare_softmax_vs_svm.json",
+        "sha256": "5d342b7c5ee6e54afa4bc0b596fa6bbb31da96c9d18b75682a7af7ee9bcbb664"
+      },
+      {
+        "path": "drive-archive-001/WERM/outputs/runs/residue_r18_mae_yearsplit_20260211_104508/meta.json",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/drive-archive-001/WERM/outputs/runs/residue_r18_mae_yearsplit_20260211_104508/meta.json",
+        "sha256": "a0828a5bc9d7905a714fc8a2c8d58e3687c86f084455dc031f7247654c86d5b5"
+      },
+      {
+        "path": "drive-archive-001/WERM/src/dataset_residue.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/drive-archive-001/WERM/src/dataset_residue.py",
+        "sha256": "6a7154e732d3f1a1b6fd688d56de00c715eff06ef65c58190250a859e87f52b5"
+      },
+      {
+        "path": "drive-archive-001/WERM/src/train.py",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/drive-archive-001/WERM/src/train.py",
+        "sha256": "660b3684fc702a6f1f7a27b63a8501d7517768d0453d127e9e7cef2b8dbfa933"
+      },
+      {
+        "path": "FILE-INDEX.md",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/FILE-INDEX.md",
+        "sha256": "eee6da358ce815a384e6a723a82a2f73187fd234712838468bac678243449def"
+      },
+      {
+        "path": "IMPORT-INVENTORY.md",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/IMPORT-INVENTORY.md",
+        "sha256": "cd80c3ff36ab02a729ab2add29f77b3bea5f30567156b0f248c320a0d473ecd6"
+      },
+      {
+        "path": "manuscript.pdf",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/manuscript.pdf",
+        "sha256": "2328c69b5d55de79f66e84605f98e4dba7a796add6d48616928e48c8ae89036e"
+      },
+      {
+        "path": "publication-manifest.json",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/publication-manifest.json",
+        "sha256": "b4c24df2908544d15ac510bba8bdfddf192a5c48fb88047a5f7ad606dd4a7a32"
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/README.md",
+        "sha256": "0a9d554c16824637d60f5d270e4c20305ae1a76fb0827d919e528fc915073a91"
+      },
+      {
+        "path": "source-manifest.json",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/source-manifest.json",
+        "sha256": "c308b470efe2ca1778c502461d92f9a3641f7d23d9ab7222a7a135927f39366c"
+      },
+      {
+        "path": "VERSION-MAP.md",
+        "url": "https://github.com/Arham-Sethi/werm/blob/main/VERSION-MAP.md",
+        "sha256": "1431b98036903662134e72f74790ded93e8d888f9de284e200e8ee1e3e969db5"
       }
     ]
   },
   {
-    "id": "agrodry",
-    "title": "AgroDry (Stubby)",
-    "sources": [
+    "project": "agrodry",
+    "repository": "https://github.com/Arham-Sethi/agrodry-stubby",
+    "files": [
       {
-        "path": "AI Moisture Detection/Backend/model.py",
-        "filename": "01-model.py.txt",
-        "sha256": "d2fa6153eb0238dfc248ee9870e38b10a10f192b7e3e9c48b07847ba66a2be39",
-        "lines": 156,
-        "bytes": 5624
+        "path": ".gitattributes",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/.gitattributes",
+        "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
       },
       {
-        "path": "AI Moisture Detection/Backend/schemas.py",
-        "filename": "02-schemas.py.txt",
-        "sha256": "684c6a739878a50a717488f92a444a83243e71a0a3bb5687f95a10280befc04b",
-        "lines": 21,
-        "bytes": 455
+        "path": "desktop/AI Moisture Detection/afsccnn/afsc_cinematic.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/afsccnn/afsc_cinematic.py",
+        "sha256": "2fc571b649f412ef2e8fdc9600b543e2e8c0143d113b294d90307c6bc0e8325d"
       },
       {
-        "path": "AI Moisture Detection/Backend/utils.py",
-        "filename": "03-utils.py.txt",
-        "sha256": "243fef36ba8c12a58406c08a38cef252593f469f776a8b3aceabfb7e6c79995f",
-        "lines": 29,
-        "bytes": 753
+        "path": "desktop/AI Moisture Detection/afsccnn/afscpremoistnettrain.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/afsccnn/afscpremoistnettrain.py",
+        "sha256": "aac586e4d3ef25175811819fc99924b76070bf5e427e46ab070d31e11f02349f"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Backend/app.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/app.py",
+        "sha256": "01de0c50ae9e0ef384c104b93841d4dc7f5defe1e50957a481b20c0754b719fa"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Backend/model.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/model.py",
+        "sha256": "d2fa6153eb0238dfc248ee9870e38b10a10f192b7e3e9c48b07847ba66a2be39"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Backend/README.md",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/README.md",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Backend/requirments.txt",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/requirments.txt",
+        "sha256": "af8b175f7b927d5be9d1c4e8a32a6da292ff3d25f1627457e83aaabfacc82907"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Backend/schemas.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/schemas.py",
+        "sha256": "684c6a739878a50a717488f92a444a83243e71a0a3bb5687f95a10280befc04b"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Backend/utils.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Backend/utils.py",
+        "sha256": "243fef36ba8c12a58406c08a38cef252593f469f776a8b3aceabfb7e6c79995f"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Data/cleaning.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Data/cleaning.py",
+        "sha256": "524d84f1722c58dd6081c79313c46442f9ba5ffefd067e9d5627ba5a0d18727b"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Data/csv1.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Data/csv1.py",
+        "sha256": "fb49b19926f0538c55eb9c732707fa7c6deede9d85a2d08ef8668e5384c76d6b"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Data/mainapp1.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Data/mainapp1.py",
+        "sha256": "bd462e925c8214144a6080a357bcbc722912691bf457187794c7bae818ac8158"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Data/splitdata.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Data/splitdata.py",
+        "sha256": "9f2c1f25f9f403ed107e9835467c2844d5be4148dae690af03945cbc1e04f671"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Draft1/posttrainft.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Draft1/posttrainft.py",
+        "sha256": "f85a04424c8a58649cb0c10d2d6e671015201e244ec0a1506db7980c6e3c9984"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Draft1/train_pretrain.py",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Draft1/train_pretrain.py",
+        "sha256": "c2f92b7ff9ddb80ee2aeed93f6bf01e4537d07632bd9df18cfdcfcbe0eb1af59"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Frontend/AgroDry_frontend.html",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Frontend/AgroDry_frontend.html",
+        "sha256": "5bfb9d0ce67e392318bb1b5be2dec74ed6176cd6e5bd84511ea76ec5ab362bbd"
+      },
+      {
+        "path": "desktop/AI Moisture Detection/Frontend/index.html",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/desktop/AI%20Moisture%20Detection/Frontend/index.html",
+        "sha256": "359037e48a55860349eba7c99fc581f4210bf8b5ba6f2dbee00506fdbabad91f"
+      },
+      {
+        "path": "FILE-INDEX.md",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/FILE-INDEX.md",
+        "sha256": "b7f952fbcd63c0dd724eede1f8d5548d3536198cdd4c1de4b724e69bdfc472ee"
+      },
+      {
+        "path": "IMPORT-INVENTORY.md",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/IMPORT-INVENTORY.md",
+        "sha256": "9f795c051421353d3edb88f1b068b48c95bf4be27f02d57612002cc7cac55353"
+      },
+      {
+        "path": "publication-manifest.json",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/publication-manifest.json",
+        "sha256": "f808bf7e6783bb3df994cb29a95fbe150975e26de610c06d3b227b8cce46ce65"
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/README.md",
+        "sha256": "67477d0a0759bb1b7f200df629832ce714e207b062de3018dd48ccd1cb2c6221"
+      },
+      {
+        "path": "source-manifest.json",
+        "url": "https://github.com/Arham-Sethi/agrodry-stubby/blob/main/source-manifest.json",
+        "sha256": "4b9f5b60d7fe86858b19d056193b9e3ed6eb241e5714238869319f50911b91a8"
       }
     ]
   },
   {
-    "id": "qfm-research",
-    "title": "QFM Research",
-    "sources": [
+    "project": "qfm-research",
+    "repository": "https://github.com/Arham-Sethi/PhaseForge",
+    "files": [
       {
-        "path": "QFM_Research/qfm_dct.py",
-        "filename": "01-qfm_dct.py.txt",
-        "sha256": "36687353a048fb2b29da1b15cd08f7e202b366d787ce5ece938411f86a39b59f",
-        "lines": 1012,
-        "bytes": 38566
+        "path": ".gitattributes",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/.gitattributes",
+        "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+      },
+      {
+        "path": ".gitignore",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/.gitignore",
+        "sha256": "3c2f505027eea8b8803e4d6d42c19061733f65fffe7a79382ede237a6624a0a2"
+      },
+      {
+        "path": "FILE-INDEX.md",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/FILE-INDEX.md",
+        "sha256": "be18b2413869f0de1264ee9648b78c4093b14c8435ad58ad151b8573beebe08f"
+      },
+      {
+        "path": "publication-manifest.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/publication-manifest.json",
+        "sha256": "88b30f8d9cacc99bdbbb7c1e412a16895e61e8539d3d99bf64c102bb0f7eef34"
+      },
+      {
+        "path": "QFM_Research/Configs/baseline_blur_augmix_seed1.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/baseline_blur_augmix_seed1.json",
+        "sha256": "0480df19f0c9ddcf26338234728b9fc867814238f385522574f1c397f4ce72e9"
+      },
+      {
+        "path": "QFM_Research/Configs/baseline_clean.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/baseline_clean.json",
+        "sha256": "37f9fed9e84d03f0eb5408df67dd20798bee9c0314a8e6725c23e5b1af5538c1"
+      },
+      {
+        "path": "QFM_Research/Configs/baseline_clean_seed1.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/baseline_clean_seed1.json",
+        "sha256": "52dc357c925f4389b5beea1f9aaa63e9d3b5efbb6ed8b4aaae7281844094b790"
+      },
+      {
+        "path": "QFM_Research/Configs/baseline_debug.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/baseline_debug.json",
+        "sha256": "054f7a7120d6a99acafc90c93161e601af81343b586c8afe1ddfe52522b6e833"
+      },
+      {
+        "path": "QFM_Research/Configs/baseline_robust.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/baseline_robust.json",
+        "sha256": "106044677959b1ad3992054b4b02f54383556046ff4dac868d42f6a96c2ed4e8"
+      },
+      {
+        "path": "QFM_Research/Configs/micro_sanity.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/micro_sanity.json",
+        "sha256": "21612257d18579d84ce1775ba6087e12534cceb1860786ca8d31e0d981b8f815"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_dct_only.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_dct_only.json",
+        "sha256": "56ffa10683a91ff67a5c614eb8013abcc6c27ef84288db5132423878e816ce6e"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_E_debug.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_E_debug.json",
+        "sha256": "ce491a60136280f8a9a777745a6df87809638c2bad1b7b1a3c1e52df77f4c5c9"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_F_debug.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_F_debug.json",
+        "sha256": "242cb302c60b254711dfa4d2fb86c14d0dd10ad0dff4e593bbdcb17704a22b32"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_freq_only.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_freq_only.json",
+        "sha256": "c700f53602a94bf19284705266e283d113c32ae8e6d95dba714a07c95dc964d6"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_freq_only_F_seed1.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_freq_only_F_seed1.json",
+        "sha256": "3670b2393dea76ea9f6d594fac09414a293edf0626475c49565d6f64c9b92e53"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_full_G_seed1.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_full_G_seed1.json",
+        "sha256": "fd756b41b1ac5ce240b98ee57b76aeae3f94ea2883cd656588bfd967649be753"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_G.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_G.json",
+        "sha256": "3e75589941b5db21e628625e7b355808861ac0c7dc1e6a9b5ad6cfe925d9af67"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_G_control.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_G_control.json",
+        "sha256": "416d4be529f192184d9a047dfca8a94578d28571faf18d10c679b33da23363eb"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_G_robust.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_G_robust.json",
+        "sha256": "5a106c5580c7c38df6f8afc0c8c23dd4ebe00107e95c00331fb7daac20edc03d"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_hero.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_hero.json",
+        "sha256": "85e2c21e99147412cb02e7676a948c7b32132aa794d015c83c54028a17ff619a"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_morph_only.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_morph_only.json",
+        "sha256": "f795e70a485068318841be666b0d308824fbd5d3046915fb789bc2388d235b95"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_morph_only_E_seed1.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_morph_only_E_seed1.json",
+        "sha256": "590cf9e0b9a2151ae941888a86bf99bce94019093284729edf98b56b12d78722"
+      },
+      {
+        "path": "QFM_Research/Configs/qfm_nodct.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfm_nodct.json",
+        "sha256": "b5af45afb79d7aa6ed5679be5ff92defdd63d68a7a036f28eed408264b49584b"
+      },
+      {
+        "path": "QFM_Research/Configs/qfmfull_clean.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Configs/qfmfull_clean.json",
+        "sha256": "f5be562fe3e47f5bfb71faab033f3fc6fd9ed9f7154cdeb5c953ebde17cf9672"
+      },
+      {
+        "path": "QFM_Research/eval_cifar.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/eval_cifar.py",
+        "sha256": "14ddec940edfe82df589d5a9a9f9090282c33ce382d3773b6f221ef4ee02f6f1"
       },
       {
         "path": "QFM_Research/eval_robustness.py",
-        "filename": "02-eval_robustness.py.txt",
-        "sha256": "d51af7772f53a2b1dcd0de773260818683ea6d2194cd7e8051f48befc0e61236",
-        "lines": 160,
-        "bytes": 5893
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/eval_robustness.py",
+        "sha256": "d51af7772f53a2b1dcd0de773260818683ea6d2194cd7e8051f48befc0e61236"
+      },
+      {
+        "path": "QFM_Research/qfm_dct.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/qfm_dct.py",
+        "sha256": "36687353a048fb2b29da1b15cd08f7e202b366d787ce5ece938411f86a39b59f"
+      },
+      {
+        "path": "QFM_Research/run_cifar1.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/run_cifar1.py",
+        "sha256": "46dc4bdeff73dcc8964fbcd3727725c867e6dc7033bd285d9fd4c9660ac6ad49"
+      },
+      {
+        "path": "QFM_Research/run_cifar10c.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/run_cifar10c.py",
+        "sha256": "8bca87844343f69ce520238ccdf6ff0fe45e312453d5436764c9010c2e4d20b4"
       },
       {
         "path": "QFM_Research/Tests/test_qfm_shapes.py",
-        "filename": "03-test_qfm_shapes.py.txt",
-        "sha256": "324f86fece9c1269d8af7af17c8345ff001be6a730f9883f4e86909170558a1d",
-        "lines": 37,
-        "bytes": 1134
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/Tests/test_qfm_shapes.py",
+        "sha256": "324f86fece9c1269d8af7af17c8345ff001be6a730f9883f4e86909170558a1d"
+      },
+      {
+        "path": "QFM_Research/train_cifar.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/QFM_Research/train_cifar.py",
+        "sha256": "a5573bef0afe6197aaac1a186860a6e728afaca300e79a2bb97676a5977c9c95"
+      },
+      {
+        "path": "qfmcnn/diagrams.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/qfmcnn/diagrams.py",
+        "sha256": "c48b813bf161b0b806878e6d6db40f52ff2ca20550d7af8a4d0e26cceac8df6f"
+      },
+      {
+        "path": "qfmcnn/exportqfmcnn.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/qfmcnn/exportqfmcnn.py",
+        "sha256": "2c7b511b9d6ab5227635bad97a39fd3fa5f46eb91f56aecbe6c000c5c2c2708b"
+      },
+      {
+        "path": "qfmcnn/phaseforgestoryboard.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/qfmcnn/phaseforgestoryboard.py",
+        "sha256": "2adb288a2718ab4f3c4b93bb075c0db7a01c9bd23f9c66214d030fb6a0566b54"
+      },
+      {
+        "path": "qfmcnn/qfm_cnn_demo.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/qfmcnn/qfm_cnn_demo.py",
+        "sha256": "cdeaa1afb3068ee5b80afa35f953b8c086b50629cab2ce588954447bc2687931"
+      },
+      {
+        "path": "qfmcnn/qfm_ptrain.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/qfmcnn/qfm_ptrain.py",
+        "sha256": "cca5aa92082c1eb29eb197d93b9490446d537e69bdf7cc05cea4a91b0f6cb467"
+      },
+      {
+        "path": "qfmcnn/qfm_train.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/qfmcnn/qfm_train.py",
+        "sha256": "851e30161d3946552748411ca46340e3f6a0971acd6ba0f3f2ef8b13a9210ae8"
+      },
+      {
+        "path": "qfmcnn/qfmcnnbench.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/qfmcnn/qfmcnnbench.py",
+        "sha256": "9e145167ac5647f00240e8835d90255671c0f929b549415b570243283312e4a5"
+      },
+      {
+        "path": "qfmcnn/qfmcnnbench2.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/qfmcnn/qfmcnnbench2.py",
+        "sha256": "4431c5e9c1a77e9b0373b334daecf2dd3fc4e63e9db864970c5466642f0c21a8"
+      },
+      {
+        "path": "qfmcnn/qfmreftrain.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/qfmcnn/qfmreftrain.py",
+        "sha256": "26aac29248294c7137d7bc586f95b55ba8de5d27f99e5f52085d3117863e4b85"
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/README.md",
+        "sha256": "15dbd1afac56c2ad1aa7f1170ea319a685daa7947ea4aab5f21d93adddc45cd7"
+      },
+      {
+        "path": "robust-qfm/qfmcnnreftrain.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/robust-qfm/qfmcnnreftrain.py",
+        "sha256": "d273d73e3ee2d786513e0e76aec691f23e6549567c610d0c86c31c6f4fc15139"
+      },
+      {
+        "path": "robust-qfm/scripts/addbuildid.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/robust-qfm/scripts/addbuildid.py",
+        "sha256": "ab81b084d9032787788121a5f68dda9d7635634bc1a526c68cea861acb12ce8f"
+      },
+      {
+        "path": "robust-qfm/scripts/check_style_score.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/robust-qfm/scripts/check_style_score.py",
+        "sha256": "9fd2fa879e699cca7576c3ed6c5be1c2ead593f62352fc3e9017446b328cf532"
+      },
+      {
+        "path": "robust-qfm/scripts/make_style_set.py",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/robust-qfm/scripts/make_style_set.py",
+        "sha256": "02004517d02da5f53aa50e6e1a1a8e30474fe674187a146c7bf53f9cff3bbff7"
+      },
+      {
+        "path": "source-manifest.json",
+        "url": "https://github.com/Arham-Sethi/PhaseForge/blob/main/source-manifest.json",
+        "sha256": "c9f8bddc3a1cbd06d1a2dd3daf576f8392ce2c35c4de0570e0bbc779c011bbee"
       }
     ]
   },
   {
-    "id": "ks-probe",
-    "title": "KS-Probe",
-    "sources": [
+    "project": "ks-probe",
+    "repository": "https://github.com/Arham-Sethi/ks-probe",
+    "files": [
       {
-        "path": "KS_Probe/ks_probe/orchestrator/runner.py",
-        "filename": "01-runner.py.txt",
-        "sha256": "520fadd4e54cbba74a32d0cfbebf9459d7c069a73271ec5597c09bfb9319851e",
-        "lines": 97,
-        "bytes": 3397
+        "path": ".gitattributes",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/.gitattributes",
+        "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
       },
       {
-        "path": "KS_Probe/ks_probe/scorer/composite.py",
-        "filename": "02-composite.py.txt",
-        "sha256": "111af0367a06a9ba9ad64e9e687d1d2ab6095a4dd0089922e70a94fa183bddce",
-        "lines": 133,
-        "bytes": 4106
+        "path": ".gitignore",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/.gitignore",
+        "sha256": "3c2f505027eea8b8803e4d6d42c19061733f65fffe7a79382ede237a6624a0a2"
+      },
+      {
+        "path": "FILE-INDEX.md",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/FILE-INDEX.md",
+        "sha256": "17e5a19f1dc41c05b81584f05affc3baf858a1cf844f78414550a102c56b9ca9"
+      },
+      {
+        "path": "KS_Probe/.env.example",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/.env.example",
+        "sha256": "a55326a8a03a597e3c73480b8a9ffdb08206b33ccda21daf4ba49a4689867f5e"
+      },
+      {
+        "path": "KS_Probe/.gitignore",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/.gitignore",
+        "sha256": "bc6a09f9e0f1fe737aaa0f2f14afee1a560c13d2f246394d31fd3bbc574653a4"
+      },
+      {
+        "path": "KS_Probe/configs/exp1_context_fidelity.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/exp1_context_fidelity.yaml",
+        "sha256": "141774114a4f31e7c341b193470d703350dc780dfb38cfe94a4519f233722848"
+      },
+      {
+        "path": "KS_Probe/configs/exp1_enhanced.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/exp1_enhanced.yaml",
+        "sha256": "4c37785d3ed6f21cf85f78a0d2cac7d246a333c0fbef67e0f4966642795182df"
+      },
+      {
+        "path": "KS_Probe/configs/exp1_noclaude.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/exp1_noclaude.yaml",
+        "sha256": "0d8bc186d3d57fc2050ad8ce9e3e5d3fedc3182f91771aec459680169189921f"
+      },
+      {
+        "path": "KS_Probe/configs/exp2_enhanced.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/exp2_enhanced.yaml",
+        "sha256": "8cf281322fbc106119d30089821a93983a7f088157fc056d37ed656b86eb2179"
+      },
+      {
+        "path": "KS_Probe/configs/exp2_noclaude.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/exp2_noclaude.yaml",
+        "sha256": "52791ee7bc9d20078cde4378ce12a3cc18d1013059f23f1578c1e456a9cf11a8"
+      },
+      {
+        "path": "KS_Probe/configs/exp2_positional_recall.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/exp2_positional_recall.yaml",
+        "sha256": "c7dda47ba1d92f1faaad1d1d3cb5961bbc37cd771c6c613b4568fe4dc6894d6a"
+      },
+      {
+        "path": "KS_Probe/configs/exp3_multiturn_degradation.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/exp3_multiturn_degradation.yaml",
+        "sha256": "ecbcf684573524533e19199c2600b0451d8cceb01bb278a077dafc112c19d4b1"
+      },
+      {
+        "path": "KS_Probe/configs/exp4_silent_truncation.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/exp4_silent_truncation.yaml",
+        "sha256": "54a65019225e8ed897e990f0e5c990725f122df6687cbd7e6879f4f9e2815ef8"
+      },
+      {
+        "path": "KS_Probe/configs/exp5_tokenizer_divergence.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/exp5_tokenizer_divergence.yaml",
+        "sha256": "34f57dbe43c108d22e54169aa4ac3ae2102eced0c12f34888d4f2e6f06e46bd7"
+      },
+      {
+        "path": "KS_Probe/configs/mock_test.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/mock_test.yaml",
+        "sha256": "5f20ad13dbcb867ef27a17a29ddcbf3afb0a8dee8e0359df13c0584d83dec97c"
+      },
+      {
+        "path": "KS_Probe/configs/models.yaml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/configs/models.yaml",
+        "sha256": "44310bcfdb2bfe9aba49bdcf557e7ff8b4a67c61a758e1ffab2aa37f24276f8a"
+      },
+      {
+        "path": "KS_Probe/data/probes/probe_facts.json",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/data/probes/probe_facts.json",
+        "sha256": "2b5ab6a9a78e9a1a6149e279dc6a3e9663882b157497f418d4a9260e8b84ba80"
+      },
+      {
+        "path": "KS_Probe/ks_probe/__init__.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/__init__.py",
+        "sha256": "104217d3172934bdcf7d928da0c0adb5229bf1f73000b566242df024c6a02f2b"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/__init__.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/anthropic_adapter.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/anthropic_adapter.py",
+        "sha256": "c76e361e76ccccd30e41a86a07db4c9f30cd0d7648467fc1248f80116dbe940c"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/base.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/base.py",
+        "sha256": "f2574b3ac0e623ae3a87ccddef64221cba13dfb2818e14cb9253e2a06e518e7d"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/deepseek_adapter.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/deepseek_adapter.py",
+        "sha256": "0c125dec7b1604e3a381c1897fb93a521647fc19458a8be919765c82b82090af"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/google_adapter.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/google_adapter.py",
+        "sha256": "7ca711a928a798586a7a014e9ef886b2b0d4a744a65767baa9c2384c9d3e4fc7"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/mock_adapter.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/mock_adapter.py",
+        "sha256": "650975e7d1466a18e32c308f454d8c6f423671ad6cfe0ac3477706f9b8221f12"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/openai_adapter.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/openai_adapter.py",
+        "sha256": "851ec02d90120684dbbb72d1e06426ea7a1b157a760ae257a8090e861cc2e032"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/perplexity_adapter.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/perplexity_adapter.py",
+        "sha256": "6412002c157f0ec2dcd1a1ad7a78704fd711f23c8cd2bd323a0096c75fedf01a"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/registry.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/registry.py",
+        "sha256": "cf59b4e19cf8c11d3b0e1b4a08671e7a9d673e2de1ae2c43fa9b4618a071ab91"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/vllm_adapter.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/vllm_adapter.py",
+        "sha256": "bf10fbcb5d9c65830ea14c07af0bef19130d694a357291658b2ebff724dcb596"
+      },
+      {
+        "path": "KS_Probe/ks_probe/adapters/xai_adapter.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/adapters/xai_adapter.py",
+        "sha256": "3020f8ea468dd7b5496fb862a6625d8792b55315189b27f545fd601fb2109d32"
+      },
+      {
+        "path": "KS_Probe/ks_probe/core/__init__.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/core/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "KS_Probe/ks_probe/core/config.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/core/config.py",
+        "sha256": "800f7eebad2b7c47d6bcfed774bc1119a577565712643ff477adbc5e9ef9bd80"
+      },
+      {
+        "path": "KS_Probe/ks_probe/core/cost.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/core/cost.py",
+        "sha256": "0ce5277ae3b52b29ebefd9350df44144922ba56dd032e01c8bae5865b01d261d"
+      },
+      {
+        "path": "KS_Probe/ks_probe/core/seed.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/core/seed.py",
+        "sha256": "d5f0b905adcd5843989b8a3fa112fe91565481ccdfd47906d91da506fb3d5c39"
+      },
+      {
+        "path": "KS_Probe/ks_probe/corpus/__init__.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/corpus/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "KS_Probe/ks_probe/corpus/builder.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/corpus/builder.py",
+        "sha256": "8d97156fa63988a912fd58b3e91a6c6e2f9d13ad4a494bf29f7358e46f79103d"
+      },
+      {
+        "path": "KS_Probe/ks_probe/corpus/sampler.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/corpus/sampler.py",
+        "sha256": "d1568313416afb1525a3a41cd49d9f8adf269e63a2e2030a6962a22f0d007517"
+      },
+      {
+        "path": "KS_Probe/ks_probe/corpus/tokenizer_utils.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/corpus/tokenizer_utils.py",
+        "sha256": "807d1bafee282232867eeaf36846cf7112983d93e8e9d8247419a450e63594dc"
+      },
+      {
+        "path": "KS_Probe/ks_probe/db/__init__.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/db/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "KS_Probe/ks_probe/db/engine.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/db/engine.py",
+        "sha256": "2880bc07219d1716c5152fca041871851647fcfc60d3a5aa6f05531b6404570f"
+      },
+      {
+        "path": "KS_Probe/ks_probe/db/queries.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/db/queries.py",
+        "sha256": "d152b5166cea0e4e01ba6a5829e31447f4f9342f27aeeed46212b09c5556dd8b"
+      },
+      {
+        "path": "KS_Probe/ks_probe/db/schema.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/db/schema.py",
+        "sha256": "21cb570ef29dcb5a1c028d8b6994bd061bdbf65d766946c69a3a4384d21a6577"
+      },
+      {
+        "path": "KS_Probe/ks_probe/experiments/__init__.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/experiments/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "KS_Probe/ks_probe/experiments/base.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/experiments/base.py",
+        "sha256": "a7aa649fa6f5ed6dc41f236b39f7d1f0858819918a27f441987c59f25788d5ba"
       },
       {
         "path": "KS_Probe/ks_probe/experiments/exp1_context_fidelity.py",
-        "filename": "03-exp1_context_fidelity.py.txt",
-        "sha256": "2d11d192aba4abadcf441fce114915c6a383c34782b303b555c658b6dc5ff060",
-        "lines": 121,
-        "bytes": 4168
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/experiments/exp1_context_fidelity.py",
+        "sha256": "2d11d192aba4abadcf441fce114915c6a383c34782b303b555c658b6dc5ff060"
+      },
+      {
+        "path": "KS_Probe/ks_probe/experiments/exp2_positional_recall.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/experiments/exp2_positional_recall.py",
+        "sha256": "33aecb451f4aa36c80e24e5813bf5811f2b986acb7acff44eb6fcc8d4b13e4c1"
+      },
+      {
+        "path": "KS_Probe/ks_probe/experiments/exp3_multiturn.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/experiments/exp3_multiturn.py",
+        "sha256": "1fb37f8b71f7b48f0f29b447de26cc2ef83961ec0db72e7d50de929cc918eb21"
+      },
+      {
+        "path": "KS_Probe/ks_probe/experiments/exp4_truncation.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/experiments/exp4_truncation.py",
+        "sha256": "bc891664f342d2547d626f14b66dabc988b7a11f745716fbc2fa112b9c247edb"
+      },
+      {
+        "path": "KS_Probe/ks_probe/experiments/exp5_tokenizer.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/experiments/exp5_tokenizer.py",
+        "sha256": "44a8cf8cc0e01f8e7673589c4c0e0a8b11969ca9cdc8ade5d1534b6db1166201"
+      },
+      {
+        "path": "KS_Probe/ks_probe/orchestrator/__init__.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/orchestrator/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "KS_Probe/ks_probe/orchestrator/checkpoint.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/orchestrator/checkpoint.py",
+        "sha256": "0c445670855ce432027de5722bbef30af4eb482a0760552e0b251fb436d5f2e6"
+      },
+      {
+        "path": "KS_Probe/ks_probe/orchestrator/planner.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/orchestrator/planner.py",
+        "sha256": "45ed8c0d254fba7c9e4f3e92845fa6d7c8f10d1a7328c77308cf82e598e0fe78"
+      },
+      {
+        "path": "KS_Probe/ks_probe/orchestrator/rate_limiter.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/orchestrator/rate_limiter.py",
+        "sha256": "87676574ad1d4d74462484bfdecccefd731a67fd62644c7cb755a29907374355"
+      },
+      {
+        "path": "KS_Probe/ks_probe/orchestrator/runner.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/orchestrator/runner.py",
+        "sha256": "520fadd4e54cbba74a32d0cfbebf9459d7c069a73271ec5597c09bfb9319851e"
+      },
+      {
+        "path": "KS_Probe/ks_probe/probes/__init__.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/probes/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "KS_Probe/ks_probe/probes/injector.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/probes/injector.py",
+        "sha256": "8d89542c62414d23de9faa7c4779816d0b533eeeec6ad1d979ef549364a20db0"
+      },
+      {
+        "path": "KS_Probe/ks_probe/probes/loader.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/probes/loader.py",
+        "sha256": "925f0a1a6ec4719eb204368a57e3b12fa117b3a9e22977971ca8e9c59c411f3f"
+      },
+      {
+        "path": "KS_Probe/ks_probe/probes/types.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/probes/types.py",
+        "sha256": "c99ea0489ae1c13bd673559f3ded881bf5fe32a8ca92492216cfb584b77e2bfb"
+      },
+      {
+        "path": "KS_Probe/ks_probe/scorer/__init__.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/scorer/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "KS_Probe/ks_probe/scorer/base.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/scorer/base.py",
+        "sha256": "e0d10c3d6fd8fe93bcba647463579698187d2532f0015cb980d18a83c6453d99"
+      },
+      {
+        "path": "KS_Probe/ks_probe/scorer/composite.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/scorer/composite.py",
+        "sha256": "111af0367a06a9ba9ad64e9e687d1d2ab6095a4dd0089922e70a94fa183bddce"
+      },
+      {
+        "path": "KS_Probe/ks_probe/scorer/constraint.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/scorer/constraint.py",
+        "sha256": "67ebd6506c4f469d79ba9f82dd2c9e1f93871c6a65d571e944dc1892541cf37d"
+      },
+      {
+        "path": "KS_Probe/ks_probe/scorer/exact_match.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/scorer/exact_match.py",
+        "sha256": "9cdf4be9ef2ea2040c894120d42c87b0cef6034b912303f4bda0a0b20c326814"
+      },
+      {
+        "path": "KS_Probe/ks_probe/scorer/hallucination.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/scorer/hallucination.py",
+        "sha256": "9744a2977c42f00903b83c7fe52169b91cf056b6b5ce8fb8cb75c6d28fedbd40"
+      },
+      {
+        "path": "KS_Probe/ks_probe/scorer/keyword_rule.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/ks_probe/scorer/keyword_rule.py",
+        "sha256": "1e4e07ca2cfe12b2f4bd25840b835f5c671d69b7a2ba1c2d747c4359a31252b9"
+      },
+      {
+        "path": "KS_Probe/master_seed.json",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/master_seed.json",
+        "sha256": "018766cf622bfa6b8d2bd4cadbd203906c91c5fdb95aab7cee12d21fa4c7852e"
+      },
+      {
+        "path": "KS_Probe/pyproject.toml",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/pyproject.toml",
+        "sha256": "7ebbecb137c853d6b184f8d1cd6f7b05f1641ef9701f9d6877903f26dcb73679"
+      },
+      {
+        "path": "KS_Probe/README.md",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/README.md",
+        "sha256": "36bcc6db04e44a5f034c439690e35d827c71db55cbcead7219943b85a0f5f5f2"
+      },
+      {
+        "path": "KS_Probe/requirements.txt",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/requirements.txt",
+        "sha256": "fa213e12fba82f9fdfc2f340215d0d889d2827a286b88e187e1a8b4679064028"
+      },
+      {
+        "path": "KS_Probe/scripts/build_corpus.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/scripts/build_corpus.py",
+        "sha256": "584a636480be2073b43007ef20469940e292c097399e30a9cdba74f999e20140"
+      },
+      {
+        "path": "KS_Probe/scripts/estimate_cost.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/scripts/estimate_cost.py",
+        "sha256": "b729fe5a84985b8ac9469343565fbe95a15b006b2f53e5c9321092b0ae889ee0"
+      },
+      {
+        "path": "KS_Probe/scripts/export_results.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/scripts/export_results.py",
+        "sha256": "a0d34dd5d49f7f7665dfdac4ebd7567de78e62e03708c438acae4a12f5e2fb21"
+      },
+      {
+        "path": "KS_Probe/scripts/gen_probes_data.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/scripts/gen_probes_data.py",
+        "sha256": "495ab8abda2604fc32f13736276d7f792fff35dbee418db4ecc9a90e6aacd1fd"
+      },
+      {
+        "path": "KS_Probe/scripts/generate_figures.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/scripts/generate_figures.py",
+        "sha256": "32763873b1509d71a741559c19de1b35d6cd073778cb8bbd305bf559f700ecc3"
+      },
+      {
+        "path": "KS_Probe/scripts/generate_tables.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/scripts/generate_tables.py",
+        "sha256": "cdf504911b1c7ed1b211fc7a724c4fb77762d85a7d13a70133bfbe7a4b638f3e"
+      },
+      {
+        "path": "KS_Probe/scripts/run_experiment.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/scripts/run_experiment.py",
+        "sha256": "6485af12c7e7ae32701aaff87b0645a53c58c09b44173f161b5e483d61082276"
+      },
+      {
+        "path": "KS_Probe/scripts/setup_db.py",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/KS_Probe/scripts/setup_db.py",
+        "sha256": "271dd231f2a402afb595ef394134b917ed2c3eb22da7b92821365ebe2ebfc204"
+      },
+      {
+        "path": "manuscript.pdf",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/manuscript.pdf",
+        "sha256": "aacf5a1ad74d3deb5f2d57a59346033cc78dc372be244b27b4ae57ce1bb9a6b5"
+      },
+      {
+        "path": "publication-manifest.json",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/publication-manifest.json",
+        "sha256": "0b84c27e85eaf96467a5bd0326004bae74b4988860f0e295b815948b6aa36c53"
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/README.md",
+        "sha256": "511c25a2a23513cd56d1a265ebba249375308fa00f623f7f8a311b15907a84ae"
+      },
+      {
+        "path": "source-manifest.json",
+        "url": "https://github.com/Arham-Sethi/ks-probe/blob/main/source-manifest.json",
+        "sha256": "5a08bf73326e2042c25b377abf2d56f8be8a735ebcfc002123e09d85f8f9bf24"
       }
     ]
   },
   {
-    "id": "tool-failure-paper-1",
-    "title": "Fabrication After Tool Failure",
-    "sources": []
-  },
-  {
-    "id": "tool-failure-paper-2",
-    "title": "When Tools Get in the Way",
-    "sources": []
-  },
-  {
-    "id": "amplify-ai",
-    "title": "Amplify AI",
-    "sources": [
+    "project": "tool-failure-paper-1",
+    "repository": "https://github.com/Arham-Sethi/fabrication-after-tool-failure",
+    "files": [
       {
-        "path": "Amplify-AI-Build/packages/grader/src/grader.ts",
-        "filename": "01-grader.ts.txt",
-        "sha256": "3227b7c1ec604a2239fa49525b59b8964e752003b017b61c969d87c719fc4e5d",
-        "lines": 67,
-        "bytes": 2610
+        "path": ".gitattributes",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/.gitattributes",
+        "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
       },
       {
-        "path": "Amplify-AI-Build/apps/extension/lib/api-client.ts",
-        "filename": "02-api-client.ts.txt",
-        "sha256": "01f5d5387990a7551c896b84ca9902d6ccca3a98dd51ec998408b23414c9ec2d",
-        "lines": 230,
-        "bytes": 7600
+        "path": ".gitignore",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/.gitignore",
+        "sha256": "9946fdfbb25aca4ab101f9644551e6a582f65ffd0ff76b34ad2cc6a250634cf0"
       },
       {
-        "path": "ToneShift/api/rewrite.js",
-        "filename": "03-rewrite.js.txt",
-        "sha256": "10bb26b14efa14f740143afe8ccc31ec61873bb55c47eb9de54a5da02d439a1e",
-        "lines": 319,
-        "bytes": 12045
+        "path": "FILE-INDEX.md",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/FILE-INDEX.md",
+        "sha256": "6695f3845d904ff01394ba463f9e9fbe8dd614db60c89a5ee0af41a95139562c"
+      },
+      {
+        "path": "manuscript.pdf",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/manuscript.pdf",
+        "sha256": "1e787c3783ee856a4e4b258f271c001ef34bfe0f75f7aa28a1877ddaf525da07"
+      },
+      {
+        "path": "notebooks/ALIASES.md",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/notebooks/ALIASES.md",
+        "sha256": "fa630a1bcdaaf724167183616aeefbf58e0fd8d27ad1b12e5ff4243ff5bef3d8"
+      },
+      {
+        "path": "notebooks/defences_dev (1).ipynb",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/notebooks/defences_dev%20%281%29.ipynb",
+        "sha256": "e524a5e883ccee6a48dbde5f090c955f1bb8eeda3ec8bcb09758efcc8e9f3563"
+      },
+      {
+        "path": "notebooks/deploy_scaffold (4).ipynb",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/notebooks/deploy_scaffold%20%284%29.ipynb",
+        "sha256": "5ab8050b8bd1c84c2e4c705493c671b95ef02c2d493c1180f60585887bb3fe41"
+      },
+      {
+        "path": "notebooks/final_run (1).ipynb",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/notebooks/final_run%20%281%29.ipynb",
+        "sha256": "b32e485e2e39d46cd08dd0efd3d248b5df3aa71d04df6af98d141f7e65932dac"
+      },
+      {
+        "path": "notebooks/frameworks_run_(1).ipynb",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/notebooks/frameworks_run_%281%29.ipynb",
+        "sha256": "466b637b04e473509029e971dd873e4426e0f3ac7ced6e1d1f8d781b2e329361"
+      },
+      {
+        "path": "notebooks/multimodel_sweep_1 (1).ipynb",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/notebooks/multimodel_sweep_1%20%281%29.ipynb",
+        "sha256": "76a9216f54d9b460d66427a54a95436fa4b76fa5a690908d3bc97695025c9143"
+      },
+      {
+        "path": "notebooks/tool_failure_benchmark_workflow (1).ipynb",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/notebooks/tool_failure_benchmark_workflow%20%281%29.ipynb",
+        "sha256": "0ad30a4ada9b58996f735b7baba889fb987a653879f4df5971c5207ec4ee9c2c"
+      },
+      {
+        "path": "provenance.json",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/provenance.json",
+        "sha256": "5406c67398b97f510170e76200b5e575257a955ac59fcec31cf5c3e927834caa"
+      },
+      {
+        "path": "publication-manifest.json",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/publication-manifest.json",
+        "sha256": "33e07b3707eeab163b71c7cb285acd1bc2edb67e1acb24546375f491cfa04827"
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/README.md",
+        "sha256": "10f96ae4dca4f24570e69d663df6b3c4fe7deb77c2e473512d90080a043465a7"
+      },
+      {
+        "path": "requirements.txt",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/requirements.txt",
+        "sha256": "8bdc10514442524dc826340ded50fd9726656a8d556c79a6f73608a4b4bd6981"
+      },
+      {
+        "path": "SANITIZATION.md",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/SANITIZATION.md",
+        "sha256": "093b30239650a61bc20ea77b63efcaa75d271db9270690c0151c7e135588bce9"
+      },
+      {
+        "path": "security-scan.json",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/security-scan.json",
+        "sha256": "b1c690cfd0d9c5f9d8664cf65997adf2e008cfc72e10280aaf6af4d33dd0dc02"
+      },
+      {
+        "path": "support/build_bib.py",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/support/build_bib.py",
+        "sha256": "1691dd9ebb5832a0f86dad3ff03c01ca299c82537911bce38f167bca16d2ce06"
+      },
+      {
+        "path": "support/citations_master.csv",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/support/citations_master.csv",
+        "sha256": "7f8c664a0d8d25fbc7a99844d4b274ddbae06cb70269f169c6ea778b934ef049"
+      },
+      {
+        "path": "support/dump_methods_facts.py",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/support/dump_methods_facts.py",
+        "sha256": "6d0521770e5fb90f27754c1082cdf00194d24d0209541b51502b870af481046b"
+      },
+      {
+        "path": "support/echo_quantification.py",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/support/echo_quantification.py",
+        "sha256": "a5f5f715e4c14f8514e756a7e896bd36f6dfa00694edf7c04811f57fc17e8578"
+      },
+      {
+        "path": "support/probe_model.py",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/support/probe_model.py",
+        "sha256": "23b8cf8c80bfdafc51c37c93e1efc8cad6f4e50adde20c9ac45dbee7a936950f"
+      },
+      {
+        "path": "support/verification_report.csv",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/support/verification_report.csv",
+        "sha256": "689a8a12b50d4669da9dcf0347514782284bc604ac48985367ce58d92da8c41e"
+      },
+      {
+        "path": "support/verify_citations.py",
+        "url": "https://github.com/Arham-Sethi/fabrication-after-tool-failure/blob/main/support/verify_citations.py",
+        "sha256": "cf083dc4101dbb896429d2de8d915a24c51b5cce3ef49c1112cc7cade4e9bd41"
       }
     ]
   },
   {
-    "id": "kangaroo-shift",
-    "title": "Kangaroo Shift",
-    "sources": [
+    "project": "tool-failure-paper-2",
+    "repository": "https://github.com/Arham-Sethi/when-tools-get-in-the-way",
+    "files": [
       {
-        "path": "kangaroo/backend/app/core/engine/ucs_generator.py",
-        "filename": "01-ucs_generator.py.txt",
-        "sha256": "dcd2d9bd4126eea5de6c9ba9990284b48041e56f40fbc896286c26d771534e12",
-        "lines": 276,
-        "bytes": 9133
+        "path": ".gitattributes",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/.gitattributes",
+        "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
       },
       {
-        "path": "kangaroo/backend/app/core/engine/compressor.py",
-        "filename": "02-compressor.py.txt",
-        "sha256": "1acbfa8895a6c25040bd1105016e30d55ae081b5103f7742c69c2d8b6c0681c5",
-        "lines": 456,
-        "bytes": 15952
+        "path": ".gitignore",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/.gitignore",
+        "sha256": "9946fdfbb25aca4ab101f9644551e6a582f65ffd0ff76b34ad2cc6a250634cf0"
       },
       {
-        "path": "kangaroo/backend/app/core/storage/vault.py",
-        "filename": "03-vault.py.txt",
-        "sha256": "e34f33f230ea95b0a65e46e9f0fba7d413005d7225d4381ba354cee0526435b5",
-        "lines": 182,
-        "bytes": 6170
+        "path": "FILE-INDEX.md",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/FILE-INDEX.md",
+        "sha256": "813ad07b32b50a4a7ee281c9748303759719b50fe609bb2e3f8946715f745441"
+      },
+      {
+        "path": "manuscript.pdf",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/manuscript.pdf",
+        "sha256": "033d4e217d1e006687d3149f802a2ff0b875bf6c6d92c6c79152f9d4a601dbb8"
+      },
+      {
+        "path": "notebooks/Copy_of_workflowreadonly (1).ipynb",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/notebooks/Copy_of_workflowreadonly%20%281%29.ipynb",
+        "sha256": "26994f55ea9f3cd29557e8b4cdb6eeb5f6fec31944ee93d5eee4fd3522911048"
+      },
+      {
+        "path": "notebooks/paper2_astronomy_FULL_(3).ipynb",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/notebooks/paper2_astronomy_FULL_%283%29.ipynb",
+        "sha256": "fc58e8ce8c5bea904e8ea23e31b0762be1a442eb903966a4bdac298ce9ab89d8"
+      },
+      {
+        "path": "notebooks/paper2_biology_FULL_(2).ipynb",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/notebooks/paper2_biology_FULL_%282%29.ipynb",
+        "sha256": "1691a980c9e757a9d8e6a6ce0999289680976d3c30fe5b5229549857f060146d"
+      },
+      {
+        "path": "notebooks/paper2_geography_FULL_(2).ipynb",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/notebooks/paper2_geography_FULL_%282%29.ipynb",
+        "sha256": "89cbc4d7b12cd948e3d8a502d7112d9c803a0570ac273f2e5f906fe264c06f61"
+      },
+      {
+        "path": "provenance.json",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/provenance.json",
+        "sha256": "dfc961626b483832105a0de259f098c2c6ce057cedcb033e74388bb136da5a30"
+      },
+      {
+        "path": "publication-manifest.json",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/publication-manifest.json",
+        "sha256": "0e67d10c8651affe37b8621f1794bec703eed968d88d86e3155cce337b5f2c91"
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/README.md",
+        "sha256": "72a712f88d55adf29890cbc8b8e973edec4d1a0f9db070b6542a654854fea91d"
+      },
+      {
+        "path": "requirements.txt",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/requirements.txt",
+        "sha256": "ed738ab7d2a06470fb6e69cf8038cae36778cc84f6a1cde7cb360ace85c4757d"
+      },
+      {
+        "path": "SANITIZATION.md",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/SANITIZATION.md",
+        "sha256": "093b30239650a61bc20ea77b63efcaa75d271db9270690c0151c7e135588bce9"
+      },
+      {
+        "path": "security-scan.json",
+        "url": "https://github.com/Arham-Sethi/when-tools-get-in-the-way/blob/main/security-scan.json",
+        "sha256": "f9e82ce34113980fbe50c4ca4d9b9209c5133ffd92df1cafd6ee22f92814b402"
       }
     ]
   },
   {
-    "id": "liferoute",
-    "title": "LifeRoute",
-    "sources": [
+    "project": "amplify-ai",
+    "visibility": "private",
+    "public_evidence": [
+      "https://amplifyai.cc",
+      "https://chromewebstore.google.com/detail/amplify-ai/oonlioljllhlifhnfkcbchbohooddgac"
+    ]
+  },
+  {
+    "project": "kangaroo-shift",
+    "repository": "https://github.com/Arham-Sethi/kangaroo",
+    "files": [
       {
-        "path": "LifeRoute/docs/contract_v1.md",
-        "filename": "01-contract_v1.md.txt",
-        "sha256": "8d9c83151e399fda4d0a370010fcd41d4cf68160f444c0b48ec6309f6cdb9523",
-        "lines": 292,
-        "bytes": 6950
+        "path": "backend/app/core/engine/ucs_generator.py",
+        "url": "https://github.com/Arham-Sethi/kangaroo/blob/main/backend/app/core/engine/ucs_generator.py"
       },
       {
-        "path": "LifeRoute/shared/constants/api.json",
-        "filename": "02-api.json.txt",
-        "sha256": "735b5417903346d4b9bdbba1bfe1f78a13fadd71aec9168b5ab0357704e449dd",
-        "lines": 3,
-        "bytes": 34
+        "path": "backend/app/core/engine/compressor.py",
+        "url": "https://github.com/Arham-Sethi/kangaroo/blob/main/backend/app/core/engine/compressor.py"
       },
       {
-        "path": "LifeRoute/shared/constants/consent_modes.json",
-        "filename": "03-consent_modes.json.txt",
-        "sha256": "988920e0a0fc22957438c3d28e29ffcf8bdc5933b2748678cb0137cfc8ad10c7",
-        "lines": 7,
-        "bytes": 90
-      },
-      {
-        "path": "LifeRoute/shared/constants/roles.json",
-        "filename": "04-roles.json.txt",
-        "sha256": "112cd5bd28d82ade785ec62dbbd3ec93100b4701a7add359f69a69cd3a075a70",
-        "lines": 8,
-        "bytes": 106
+        "path": "backend/app/core/storage/vault.py",
+        "url": "https://github.com/Arham-Sethi/kangaroo/blob/main/backend/app/core/storage/vault.py"
       }
     ]
   },
   {
-    "id": "robotics",
-    "title": "Roblocs",
-    "sources": [
+    "project": "liferoute",
+    "repository": "https://github.com/Arham-Sethi/liferoute-design",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/.gitattributes",
+        "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+      },
+      {
+        "path": "backend/README.md",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/backend/README.md",
+        "sha256": "632ae9d884501be0adbccab1ae1eb2e1f4d1fa40ec18b6a41d072018edf4508e"
+      },
+      {
+        "path": "docs/contract_v1.md",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/docs/contract_v1.md",
+        "sha256": "8d9c83151e399fda4d0a370010fcd41d4cf68160f444c0b48ec6309f6cdb9523"
+      },
+      {
+        "path": "docs/README.md",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/docs/README.md",
+        "sha256": "dd81df82b4c9306948fa562de74a5322cf62c1622e72d6ae1052e1d2c8a9291c"
+      },
+      {
+        "path": "FILE-INDEX.md",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/FILE-INDEX.md",
+        "sha256": "e165257265de21668ec53b1b31ede48726580fefe81e423c8670382e9eb10793"
+      },
+      {
+        "path": "frontend/README.md",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/frontend/README.md",
+        "sha256": "78c6a891b76108651cf3852bd6e02a9f4dbfa49ec16e68ed1b4de9189c9c16d3"
+      },
+      {
+        "path": "publication-manifest.json",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/publication-manifest.json",
+        "sha256": "51b081fc57705e5f128f9431f7943e28f639a976ada8408c6cdb5010133fafaf"
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/README.md",
+        "sha256": "5afd465383b6c659ad3600477c1cbaf052221e94cd825df9a30bf8f7e61a8b40"
+      },
+      {
+        "path": "shared/constants/api.json",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/shared/constants/api.json",
+        "sha256": "735b5417903346d4b9bdbba1bfe1f78a13fadd71aec9168b5ab0357704e449dd"
+      },
+      {
+        "path": "shared/constants/consent_modes.json",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/shared/constants/consent_modes.json",
+        "sha256": "988920e0a0fc22957438c3d28e29ffcf8bdc5933b2748678cb0137cfc8ad10c7"
+      },
+      {
+        "path": "shared/constants/roles.json",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/shared/constants/roles.json",
+        "sha256": "112cd5bd28d82ade785ec62dbbd3ec93100b4701a7add359f69a69cd3a075a70"
+      },
+      {
+        "path": "shared/README.md",
+        "url": "https://github.com/Arham-Sethi/liferoute-design/blob/main/shared/README.md",
+        "sha256": "45ad08702a3c3e73bad22947c846b5d47e6d0d3060786d0b81b71105a8788c48"
+      }
+    ]
+  },
+  {
+    "project": "robotics",
+    "repository": "https://github.com/Arham-Sethi/engineering-projects",
+    "files": [
       {
         "path": "Roblocs/asc.py",
-        "filename": "01-asc.py.txt",
-        "sha256": "d24b0de02e3b9b0d2c7243a71fa6f6ed48c23477755f92a581558805d2d5dc3a",
-        "lines": 321,
-        "bytes": 11857
-      },
-      {
-        "path": "Roblocs/g_ler.py",
-        "filename": "02-g_ler.py.txt",
-        "sha256": "e1cc608757de85682e866f68859b04a8f2401285da749118bebb7fe594226d19",
-        "lines": 86,
-        "bytes": 2810
-      },
-      {
-        "path": "Roblocs/servobutton.py",
-        "filename": "03-servobutton.py.txt",
-        "sha256": "23c0d3b4ae482c1cd6d47072753634d4658193346bd6c3da8de8a266ba526c8d",
-        "lines": 43,
-        "bytes": 1123
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/asc.py",
+        "sha256": "d24b0de02e3b9b0d2c7243a71fa6f6ed48c23477755f92a581558805d2d5dc3a"
       },
       {
         "path": "Roblocs/dataset_gen.py",
-        "filename": "04-dataset_gen.py.txt",
-        "sha256": "96f0836c14f4094e5ee6319b4ef729ba495e98a036e65ec5d7e057e7c5628346",
-        "lines": 80,
-        "bytes": 2516
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/dataset_gen.py",
+        "sha256": "96f0836c14f4094e5ee6319b4ef729ba495e98a036e65ec5d7e057e7c5628346"
+      },
+      {
+        "path": "Roblocs/g_ler.py",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/g_ler.py",
+        "sha256": "e1cc608757de85682e866f68859b04a8f2401285da749118bebb7fe594226d19"
+      },
+      {
+        "path": "Roblocs/robotics-original.pdf",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/robotics-original.pdf",
+        "sha256": "19a2cf41e32d0175a1140842cd6151706c4563d9c7ed0b7bd82b2c24f27ca543"
+      },
+      {
+        "path": "Roblocs/robotics-portfolio.pdf",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/robotics-portfolio.pdf",
+        "sha256": "8195e4d5bc8ea0164a89cf42d38f52bd70dec1aadff4cb2e0e4e16a5fa687669"
+      },
+      {
+        "path": "Roblocs/servobutton.py",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Roblocs/servobutton.py",
+        "sha256": "23c0d3b4ae482c1cd6d47072753634d4658193346bd6c3da8de8a266ba526c8d"
       }
     ]
   },
   {
-    "id": "stem-racing",
-    "title": "Maverick Motorsports",
-    "sources": []
+    "project": "stem-racing",
+    "repository": "https://github.com/Arham-Sethi/engineering-projects",
+    "files": [
+      {
+        "path": "Maverick-Motorsports/stem-design-original.pdf",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Maverick-Motorsports/stem-design-original.pdf",
+        "sha256": "06dadaf5a5dd96e136ddc27ee4f050ac0c9e5a161dc025d88865280454b3fda6"
+      },
+      {
+        "path": "Maverick-Motorsports/stem-drawings-original.pdf",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Maverick-Motorsports/stem-drawings-original.pdf",
+        "sha256": "c5e7e393944e7ec959655bc50b1304b4ebacbc3d4c96f86917d147e8ec51501b"
+      },
+      {
+        "path": "Maverick-Motorsports/stem-racing-portfolio.pdf",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Maverick-Motorsports/stem-racing-portfolio.pdf",
+        "sha256": "71fb91678efb79d572f497e2838b468b0dc107ac68b43d7139ab71425a45a50f"
+      }
+    ]
   },
   {
-    "id": "helios",
-    "title": "Helios",
-    "sources": []
+    "project": "helios",
+    "repository": "https://github.com/Arham-Sethi/engineering-projects",
+    "files": [
+      {
+        "path": "Helios/helios-original.pdf",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Helios/helios-original.pdf",
+        "sha256": "a7e8bcc301260f707ae3a8bc971893ec75ec8d23eb6f1019eee4e84928b65d94"
+      },
+      {
+        "path": "Helios/helios-portfolio.pdf",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Helios/helios-portfolio.pdf",
+        "sha256": "3f252d4b3556c2602198b082587aa83f342e2c36d130d0c52a5196d79b3bb500"
+      }
+    ]
   },
   {
-    "id": "ev-cruise",
-    "title": "EV Cruise",
-    "sources": []
+    "project": "ev-cruise",
+    "repository": "https://github.com/Arham-Sethi/engineering-projects",
+    "files": [
+      {
+        "path": "EV-Cruise/ev-cruise-original.pdf",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/EV-Cruise/ev-cruise-original.pdf",
+        "sha256": "0bfa34699859472a3da294c718d4fbe5e95a406529f35b9e8697693587404ec4"
+      },
+      {
+        "path": "EV-Cruise/ev-cruise-portfolio.pdf",
+        "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/EV-Cruise/ev-cruise-portfolio.pdf",
+        "sha256": "37a9fd62f59f7d87116328db68b340d244544cd75a47144dc59c567319f3248b"
+      }
+    ]
   },
   {
-    "id": "krish-veshan",
-    "title": "Krish Veshan",
-    "sources": []
+    "project": "krish-veshan",
+    "repository": "https://github.com/Arham-Sethi/social-research",
+    "files": [
+      {
+        "path": "krish-veshan/krish-veshan-dissertation.pdf",
+        "url": "https://github.com/Arham-Sethi/social-research/blob/main/krish-veshan/krish-veshan-dissertation.pdf",
+        "sha256": "433399790831022dd75e351e856506c1700415dc60bd35570f7730d908843a1a"
+      },
+      {
+        "path": "krish-veshan/krish-veshan-portfolio.pdf",
+        "url": "https://github.com/Arham-Sethi/social-research/blob/main/krish-veshan/krish-veshan-portfolio.pdf",
+        "sha256": "53def9ceb299eb71987c55c105252514dc9f78797e6e93f663e3f559512b693b"
+      },
+      {
+        "path": "krish-veshan/README.md",
+        "url": "https://github.com/Arham-Sethi/social-research/blob/main/krish-veshan/README.md",
+        "sha256": "4548954f3d0636295b239d794d6f9cb76edb365a5c0f9e646518a5863fdb5a11"
+      }
+    ]
   },
   {
-    "id": "krishi-connect",
-    "title": "Krishi Connect",
-    "sources": []
+    "project": "krishi-connect",
+    "repository": "https://github.com/Arham-Sethi/social-research",
+    "files": [
+      {
+        "path": "krishi-connect/krishi-connect-dissertation.pdf",
+        "url": "https://github.com/Arham-Sethi/social-research/blob/main/krishi-connect/krishi-connect-dissertation.pdf",
+        "sha256": "49ad247f126a29c80b16ea3cb8d10f21fed6ebede5511e65f139f6837f86ac3b"
+      },
+      {
+        "path": "krishi-connect/krishi-connect-portfolio.pdf",
+        "url": "https://github.com/Arham-Sethi/social-research/blob/main/krishi-connect/krishi-connect-portfolio.pdf",
+        "sha256": "07bcefb7912e6dcc0ceebebabb27faef2eccd00fe1a9720a1d8f43307bc9a9a2"
+      },
+      {
+        "path": "krishi-connect/README.md",
+        "url": "https://github.com/Arham-Sethi/social-research/blob/main/krishi-connect/README.md",
+        "sha256": "1aee19966df09b9e7c23961d62d7d19b5bc155c9b10dfe2f22f5300b23c15f6e"
+      }
+    ]
   }
 ]

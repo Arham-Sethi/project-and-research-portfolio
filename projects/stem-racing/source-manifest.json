@@ -1,1 +1,21 @@
-[]
+{
+  "project": "stem-racing",
+  "repository": "https://github.com/Arham-Sethi/engineering-projects",
+  "files": [
+    {
+      "path": "Maverick-Motorsports/stem-design-original.pdf",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Maverick-Motorsports/stem-design-original.pdf",
+      "sha256": "06dadaf5a5dd96e136ddc27ee4f050ac0c9e5a161dc025d88865280454b3fda6"
+    },
+    {
+      "path": "Maverick-Motorsports/stem-drawings-original.pdf",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Maverick-Motorsports/stem-drawings-original.pdf",
+      "sha256": "c5e7e393944e7ec959655bc50b1304b4ebacbc3d4c96f86917d147e8ec51501b"
+    },
+    {
+      "path": "Maverick-Motorsports/stem-racing-portfolio.pdf",
+      "url": "https://github.com/Arham-Sethi/engineering-projects/blob/main/Maverick-Motorsports/stem-racing-portfolio.pdf",
+      "sha256": "71fb91678efb79d572f497e2838b468b0dc107ac68b43d7139ab71425a45a50f"
+    }
+  ]
+}
