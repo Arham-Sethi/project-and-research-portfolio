@@ -1,0 +1,67 @@
+// The grader — composes the loader and the check runners into the public API.
+//
+// Score formula matches the JS grader exactly:
+//
+//     score = max(0, 100 - sum(weight of failed checks))
+//
+// A 0-weight failed check still appears in `issues` (useful for advisory
+// checks the UI surfaces without penalty) but doesn't move the score.
+//
+// Why deterministic (no LLM call) — repeating the rationale from the JS
+// grader so future readers of this package don't relitigate it:
+//   - Cheap (sub-millisecond per check), so we can grade before AND after
+//     every rewrite for free, which feeds the "estimated_token_savings"
+//     output of /api/rewrite.
+//   - Reproducible: same prompt → same score every time. No sampling noise
+//     polluting analytics.
+//   - Auditable: every failed check has a regex you can read and argue
+//     with. "Why did my prompt score 50?" → look at the issue list, look
+//     at the rubric, change either if the answer is wrong.
+
+import { runCheck } from './checks.js'
+import { loadRubric } from './rubric-loader.js'
+import type { GradeIssue, GradeResult, Rubric } from './rubric-schema.js'
+
+/**
+ * Grade a prompt against a category's rubric. Loads the rubric from disk
+ * (cached) and dispatches to {@link gradeWithRubric}.
+ */
+export function gradePrompt(prompt: string, category: string): GradeResult {
+  const rubric = loadRubric(category)
+  return gradeWithRubric(prompt, rubric)
+}
+
+/**
+ * Grade against an explicit rubric — used by tests that inject fixtures
+ * and by callers (e.g., the `/api/grade` endpoint) that already loaded
+ * the rubric and want to pass it in directly.
+ */
+export function gradeWithRubric(prompt: string, rubric: Rubric): GradeResult {
+  const issues: GradeIssue[] = []
+  let penalty = 0
+
+  for (const check of rubric.checks) {
+    const passed = runCheck(prompt, check)
+    if (!passed) {
+      penalty += check.weight
+      // Conditional spread keeps `description` off the issue when the rubric
+      // didn't define one — required under `exactOptionalPropertyTypes`,
+      // since `{ description: undefined }` is not the same as omitting it.
+      const issue: GradeIssue = {
+        id: check.id,
+        weight: check.weight,
+        ...(check.description !== undefined ? { description: check.description } : {}),
+      }
+      issues.push(issue)
+    }
+  }
+
+  const score = Math.max(0, 100 - penalty)
+  return {
+    score,
+    issues,
+    passed: score >= rubric.pass_threshold,
+    category: rubric.category,
+    rubric_version: rubric.version,
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "path": "AI Moisture Detection/Backend/model.py",
+    "filename": "01-model.py.txt",
+    "sha256": "d2fa6153eb0238dfc248ee9870e38b10a10f192b7e3e9c48b07847ba66a2be39",
+    "lines": 156,
+    "bytes": 5624
+  },
+  {
+    "path": "AI Moisture Detection/Backend/schemas.py",
+    "filename": "02-schemas.py.txt",
+    "sha256": "684c6a739878a50a717488f92a444a83243e71a0a3bb5687f95a10280befc04b",
+    "lines": 21,
+    "bytes": 455
+  },
+  {
+    "path": "AI Moisture Detection/Backend/utils.py",
+    "filename": "03-utils.py.txt",
+    "sha256": "243fef36ba8c12a58406c08a38cef252593f469f776a8b3aceabfb7e6c79995f",
+    "lines": 29,
+    "bytes": 753
+  }
+]

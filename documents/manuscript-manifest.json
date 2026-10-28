@@ -1,0 +1,30 @@
+[
+  {
+    "project": "werm",
+    "filename": "werm-manuscript.pdf",
+    "sha256": "2328c69b5d55de79f66e84605f98e4dba7a796add6d48616928e48c8ae89036e",
+    "pages": 9,
+    "origin": "User-supplied manuscript"
+  },
+  {
+    "project": "ks-probe",
+    "filename": "ks-probe-manuscript.pdf",
+    "sha256": "aacf5a1ad74d3deb5f2d57a59346033cc78dc372be244b27b4ae57ce1bb9a6b5",
+    "pages": 11,
+    "origin": "User-supplied manuscript"
+  },
+  {
+    "project": "tool-failure-paper-1",
+    "filename": "tool-failure-paper-1-manuscript.pdf",
+    "sha256": "1e787c3783ee856a4e4b258f271c001ef34bfe0f75f7aa28a1877ddaf525da07",
+    "pages": 11,
+    "origin": "https://arxiv.org/pdf/2609.14758"
+  },
+  {
+    "project": "tool-failure-paper-2",
+    "filename": "tool-failure-paper-2-manuscript.pdf",
+    "sha256": "033d4e217d1e006687d3149f802a2ff0b875bf6c6d92c6c79152f9d4a601dbb8",
+    "pages": 10,
+    "origin": "https://arxiv.org/pdf/2609.14157"
+  }
+]

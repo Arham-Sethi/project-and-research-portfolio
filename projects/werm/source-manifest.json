@@ -1,0 +1,30 @@
+[
+  {
+    "path": "WERM/src/fusion_engine.py",
+    "filename": "01-fusion_engine.py.txt",
+    "sha256": "82e621bd988ef67d6df70156ee7bbfe214e94e5c0e6f77845da0087b216522fd",
+    "lines": 81,
+    "bytes": 2549
+  },
+  {
+    "path": "WERM/src/tillage_module.py",
+    "filename": "02-tillage_module.py.txt",
+    "sha256": "8c008deb108f4f43345062a376daaca9b127cd7fde61f6936386959b83e22a34",
+    "lines": 122,
+    "bytes": 3478
+  },
+  {
+    "path": "WERM/src/temperature_gdd.py",
+    "filename": "03-temperature_gdd.py.txt",
+    "sha256": "135ae66e517ddc07f886d8ef9321de3d88a19be55561afb9a1830e5538629cab",
+    "lines": 113,
+    "bytes": 3067
+  },
+  {
+    "path": "WERM/src/experiment_runner.py",
+    "filename": "04-experiment_runner.py.txt",
+    "sha256": "a722c8f20e663abd97bbaac96247dfc837fea59f542ab95815f9476a22b12bf6",
+    "lines": 68,
+    "bytes": 2103
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "path": "QFM_Research/qfm_dct.py",
+    "filename": "01-qfm_dct.py.txt",
+    "sha256": "36687353a048fb2b29da1b15cd08f7e202b366d787ce5ece938411f86a39b59f",
+    "lines": 1012,
+    "bytes": 38566
+  },
+  {
+    "path": "QFM_Research/eval_robustness.py",
+    "filename": "02-eval_robustness.py.txt",
+    "sha256": "d51af7772f53a2b1dcd0de773260818683ea6d2194cd7e8051f48befc0e61236",
+    "lines": 160,
+    "bytes": 5893
+  },
+  {
+    "path": "QFM_Research/Tests/test_qfm_shapes.py",
+    "filename": "03-test_qfm_shapes.py.txt",
+    "sha256": "324f86fece9c1269d8af7af17c8345ff001be6a730f9883f4e86909170558a1d",
+    "lines": 37,
+    "bytes": 1134
+  }
+]

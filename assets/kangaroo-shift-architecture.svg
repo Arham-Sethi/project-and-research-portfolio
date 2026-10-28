@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="570" viewBox="0 0 1000 570" role="img" aria-labelledby="title desc">
+<title id="title">Kangaroo Shift architecture</title>
+<desc id="desc">Source-derived component overview with inputs, processing modules, and outputs.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#3b6658"/></marker></defs>
+<rect width="1000" height="570" fill="white"/>
+<polyline points="500.0,82.0 500.0,97.0 500.0,97.0 500.0,112.0" fill="none" stroke="#3b6658" stroke-width="1.7" marker-end="url(#arrow)"/>
+<polyline points="500.0,176.0 500.0,191.0 260.0,191.0 260.0,206.0" fill="none" stroke="#3b6658" stroke-width="1.7" marker-end="url(#arrow)"/>
+<polyline points="500.0,176.0 500.0,191.0 740.0,191.0 740.0,206.0" fill="none" stroke="#3b6658" stroke-width="1.7" marker-end="url(#arrow)"/>
+<polyline points="260.0,270.0 260.0,285.0 500.0,285.0 500.0,300.0" fill="none" stroke="#3b6658" stroke-width="1.7" marker-end="url(#arrow)"/>
+<polyline points="740.0,270.0 740.0,285.0 500.0,285.0 500.0,300.0" fill="none" stroke="#3b6658" stroke-width="1.7" marker-end="url(#arrow)"/>
+<polyline points="500.0,364.0 500.0,379.0 500.0,379.0 500.0,394.0" fill="none" stroke="#3b6658" stroke-width="1.7" marker-end="url(#arrow)"/>
+<polyline points="500.0,458.0 500.0,473.0 260.0,473.0 260.0,488.0" fill="none" stroke="#3b6658" stroke-width="1.7" marker-end="url(#arrow)"/>
+<polyline points="500.0,458.0 500.0,473.0 740.0,473.0 740.0,488.0" fill="none" stroke="#3b6658" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="135.0" y="18.0" width="730" height="64" rx="5" fill="#f0f4f1" stroke="#dce3dd"/>
+<text x="500.0" y="52.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#20342e">Conversation exports / captured context</text>
+<rect x="135.0" y="112.0" width="730" height="64" rx="5" fill="#f0f4f1" stroke="#dce3dd"/>
+<text x="500.0" y="146.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#20342e">Parse Ã¢â€ ’ common conversation representation</text>
+<rect x="30.0" y="206.0" width="460.0" height="64" rx="5" fill="#f0f4f1" stroke="#dce3dd"/>
+<text x="260.0" y="240.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#20342e">Entities</text>
+<rect x="510.0" y="206.0" width="460.0" height="64" rx="5" fill="#f0f4f1" stroke="#dce3dd"/>
+<text x="740.0" y="240.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#20342e">Hierarchical summaries</text>
+<rect x="135.0" y="300.0" width="730" height="64" rx="5" fill="#f0f4f1" stroke="#dce3dd"/>
+<text x="500.0" y="334.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#20342e">Budgeted compression</text>
+<rect x="135.0" y="394.0" width="730" height="64" rx="5" fill="#f0f4f1" stroke="#dce3dd"/>
+<text x="500.0" y="428.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#20342e">Universal Context Schema</text>
+<rect x="30.0" y="488.0" width="460.0" height="64" rx="5" fill="#f0f4f1" stroke="#dce3dd"/>
+<text x="260.0" y="522.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#20342e">Encrypted vault</text>
+<rect x="510.0" y="488.0" width="460.0" height="64" rx="5" fill="#f0f4f1" stroke="#dce3dd"/>
+<text x="740.0" y="522.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#20342e">Model adapters + clients</text>
+</svg>

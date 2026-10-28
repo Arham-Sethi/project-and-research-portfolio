@@ -1,0 +1,23 @@
+[
+  {
+    "path": "Amplify-AI-Build/packages/grader/src/grader.ts",
+    "filename": "01-grader.ts.txt",
+    "sha256": "3227b7c1ec604a2239fa49525b59b8964e752003b017b61c969d87c719fc4e5d",
+    "lines": 67,
+    "bytes": 2610
+  },
+  {
+    "path": "Amplify-AI-Build/apps/extension/lib/api-client.ts",
+    "filename": "02-api-client.ts.txt",
+    "sha256": "01f5d5387990a7551c896b84ca9902d6ccca3a98dd51ec998408b23414c9ec2d",
+    "lines": 230,
+    "bytes": 7600
+  },
+  {
+    "path": "ToneShift/api/rewrite.js",
+    "filename": "03-rewrite.js.txt",
+    "sha256": "10bb26b14efa14f740143afe8ccc31ec61873bb55c47eb9de54a5da02d439a1e",
+    "lines": 319,
+    "bytes": 12045
+  }
+]

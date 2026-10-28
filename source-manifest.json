@@ -1,0 +1,274 @@
+[
+  {
+    "id": "werm",
+    "title": "WERM",
+    "sources": [
+      {
+        "path": "WERM/src/fusion_engine.py",
+        "filename": "01-fusion_engine.py.txt",
+        "sha256": "82e621bd988ef67d6df70156ee7bbfe214e94e5c0e6f77845da0087b216522fd",
+        "lines": 81,
+        "bytes": 2549
+      },
+      {
+        "path": "WERM/src/tillage_module.py",
+        "filename": "02-tillage_module.py.txt",
+        "sha256": "8c008deb108f4f43345062a376daaca9b127cd7fde61f6936386959b83e22a34",
+        "lines": 122,
+        "bytes": 3478
+      },
+      {
+        "path": "WERM/src/temperature_gdd.py",
+        "filename": "03-temperature_gdd.py.txt",
+        "sha256": "135ae66e517ddc07f886d8ef9321de3d88a19be55561afb9a1830e5538629cab",
+        "lines": 113,
+        "bytes": 3067
+      },
+      {
+        "path": "WERM/src/experiment_runner.py",
+        "filename": "04-experiment_runner.py.txt",
+        "sha256": "a722c8f20e663abd97bbaac96247dfc837fea59f542ab95815f9476a22b12bf6",
+        "lines": 68,
+        "bytes": 2103
+      }
+    ]
+  },
+  {
+    "id": "agrodry",
+    "title": "AgroDry (Stubby)",
+    "sources": [
+      {
+        "path": "AI Moisture Detection/Backend/model.py",
+        "filename": "01-model.py.txt",
+        "sha256": "d2fa6153eb0238dfc248ee9870e38b10a10f192b7e3e9c48b07847ba66a2be39",
+        "lines": 156,
+        "bytes": 5624
+      },
+      {
+        "path": "AI Moisture Detection/Backend/schemas.py",
+        "filename": "02-schemas.py.txt",
+        "sha256": "684c6a739878a50a717488f92a444a83243e71a0a3bb5687f95a10280befc04b",
+        "lines": 21,
+        "bytes": 455
+      },
+      {
+        "path": "AI Moisture Detection/Backend/utils.py",
+        "filename": "03-utils.py.txt",
+        "sha256": "243fef36ba8c12a58406c08a38cef252593f469f776a8b3aceabfb7e6c79995f",
+        "lines": 29,
+        "bytes": 753
+      }
+    ]
+  },
+  {
+    "id": "qfm-research",
+    "title": "QFM Research",
+    "sources": [
+      {
+        "path": "QFM_Research/qfm_dct.py",
+        "filename": "01-qfm_dct.py.txt",
+        "sha256": "36687353a048fb2b29da1b15cd08f7e202b366d787ce5ece938411f86a39b59f",
+        "lines": 1012,
+        "bytes": 38566
+      },
+      {
+        "path": "QFM_Research/eval_robustness.py",
+        "filename": "02-eval_robustness.py.txt",
+        "sha256": "d51af7772f53a2b1dcd0de773260818683ea6d2194cd7e8051f48befc0e61236",
+        "lines": 160,
+        "bytes": 5893
+      },
+      {
+        "path": "QFM_Research/Tests/test_qfm_shapes.py",
+        "filename": "03-test_qfm_shapes.py.txt",
+        "sha256": "324f86fece9c1269d8af7af17c8345ff001be6a730f9883f4e86909170558a1d",
+        "lines": 37,
+        "bytes": 1134
+      }
+    ]
+  },
+  {
+    "id": "ks-probe",
+    "title": "KS-Probe",
+    "sources": [
+      {
+        "path": "KS_Probe/ks_probe/orchestrator/runner.py",
+        "filename": "01-runner.py.txt",
+        "sha256": "520fadd4e54cbba74a32d0cfbebf9459d7c069a73271ec5597c09bfb9319851e",
+        "lines": 97,
+        "bytes": 3397
+      },
+      {
+        "path": "KS_Probe/ks_probe/scorer/composite.py",
+        "filename": "02-composite.py.txt",
+        "sha256": "111af0367a06a9ba9ad64e9e687d1d2ab6095a4dd0089922e70a94fa183bddce",
+        "lines": 133,
+        "bytes": 4106
+      },
+      {
+        "path": "KS_Probe/ks_probe/experiments/exp1_context_fidelity.py",
+        "filename": "03-exp1_context_fidelity.py.txt",
+        "sha256": "2d11d192aba4abadcf441fce114915c6a383c34782b303b555c658b6dc5ff060",
+        "lines": 121,
+        "bytes": 4168
+      }
+    ]
+  },
+  {
+    "id": "tool-failure-paper-1",
+    "title": "Fabrication After Tool Failure",
+    "sources": []
+  },
+  {
+    "id": "tool-failure-paper-2",
+    "title": "When Tools Get in the Way",
+    "sources": []
+  },
+  {
+    "id": "amplify-ai",
+    "title": "Amplify AI",
+    "sources": [
+      {
+        "path": "Amplify-AI-Build/packages/grader/src/grader.ts",
+        "filename": "01-grader.ts.txt",
+        "sha256": "3227b7c1ec604a2239fa49525b59b8964e752003b017b61c969d87c719fc4e5d",
+        "lines": 67,
+        "bytes": 2610
+      },
+      {
+        "path": "Amplify-AI-Build/apps/extension/lib/api-client.ts",
+        "filename": "02-api-client.ts.txt",
+        "sha256": "01f5d5387990a7551c896b84ca9902d6ccca3a98dd51ec998408b23414c9ec2d",
+        "lines": 230,
+        "bytes": 7600
+      },
+      {
+        "path": "ToneShift/api/rewrite.js",
+        "filename": "03-rewrite.js.txt",
+        "sha256": "10bb26b14efa14f740143afe8ccc31ec61873bb55c47eb9de54a5da02d439a1e",
+        "lines": 319,
+        "bytes": 12045
+      }
+    ]
+  },
+  {
+    "id": "kangaroo-shift",
+    "title": "Kangaroo Shift",
+    "sources": [
+      {
+        "path": "kangaroo/backend/app/core/engine/ucs_generator.py",
+        "filename": "01-ucs_generator.py.txt",
+        "sha256": "dcd2d9bd4126eea5de6c9ba9990284b48041e56f40fbc896286c26d771534e12",
+        "lines": 276,
+        "bytes": 9133
+      },
+      {
+        "path": "kangaroo/backend/app/core/engine/compressor.py",
+        "filename": "02-compressor.py.txt",
+        "sha256": "1acbfa8895a6c25040bd1105016e30d55ae081b5103f7742c69c2d8b6c0681c5",
+        "lines": 456,
+        "bytes": 15952
+      },
+      {
+        "path": "kangaroo/backend/app/core/storage/vault.py",
+        "filename": "03-vault.py.txt",
+        "sha256": "e34f33f230ea95b0a65e46e9f0fba7d413005d7225d4381ba354cee0526435b5",
+        "lines": 182,
+        "bytes": 6170
+      }
+    ]
+  },
+  {
+    "id": "liferoute",
+    "title": "LifeRoute",
+    "sources": [
+      {
+        "path": "LifeRoute/docs/contract_v1.md",
+        "filename": "01-contract_v1.md.txt",
+        "sha256": "8d9c83151e399fda4d0a370010fcd41d4cf68160f444c0b48ec6309f6cdb9523",
+        "lines": 292,
+        "bytes": 6950
+      },
+      {
+        "path": "LifeRoute/shared/constants/api.json",
+        "filename": "02-api.json.txt",
+        "sha256": "735b5417903346d4b9bdbba1bfe1f78a13fadd71aec9168b5ab0357704e449dd",
+        "lines": 3,
+        "bytes": 34
+      },
+      {
+        "path": "LifeRoute/shared/constants/consent_modes.json",
+        "filename": "03-consent_modes.json.txt",
+        "sha256": "988920e0a0fc22957438c3d28e29ffcf8bdc5933b2748678cb0137cfc8ad10c7",
+        "lines": 7,
+        "bytes": 90
+      },
+      {
+        "path": "LifeRoute/shared/constants/roles.json",
+        "filename": "04-roles.json.txt",
+        "sha256": "112cd5bd28d82ade785ec62dbbd3ec93100b4701a7add359f69a69cd3a075a70",
+        "lines": 8,
+        "bytes": 106
+      }
+    ]
+  },
+  {
+    "id": "robotics",
+    "title": "Roblocs",
+    "sources": [
+      {
+        "path": "Roblocs/asc.py",
+        "filename": "01-asc.py.txt",
+        "sha256": "d24b0de02e3b9b0d2c7243a71fa6f6ed48c23477755f92a581558805d2d5dc3a",
+        "lines": 321,
+        "bytes": 11857
+      },
+      {
+        "path": "Roblocs/g_ler.py",
+        "filename": "02-g_ler.py.txt",
+        "sha256": "e1cc608757de85682e866f68859b04a8f2401285da749118bebb7fe594226d19",
+        "lines": 86,
+        "bytes": 2810
+      },
+      {
+        "path": "Roblocs/servobutton.py",
+        "filename": "03-servobutton.py.txt",
+        "sha256": "23c0d3b4ae482c1cd6d47072753634d4658193346bd6c3da8de8a266ba526c8d",
+        "lines": 43,
+        "bytes": 1123
+      },
+      {
+        "path": "Roblocs/dataset_gen.py",
+        "filename": "04-dataset_gen.py.txt",
+        "sha256": "96f0836c14f4094e5ee6319b4ef729ba495e98a036e65ec5d7e057e7c5628346",
+        "lines": 80,
+        "bytes": 2516
+      }
+    ]
+  },
+  {
+    "id": "stem-racing",
+    "title": "Maverick Motorsports",
+    "sources": []
+  },
+  {
+    "id": "helios",
+    "title": "Helios",
+    "sources": []
+  },
+  {
+    "id": "ev-cruise",
+    "title": "EV Cruise",
+    "sources": []
+  },
+  {
+    "id": "krish-veshan",
+    "title": "Krish Veshan",
+    "sources": []
+  },
+  {
+    "id": "krishi-connect",
+    "title": "Krishi Connect",
+    "sources": []
+  }
+]

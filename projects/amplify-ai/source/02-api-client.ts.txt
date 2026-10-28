@@ -1,0 +1,230 @@
+// API client used by the content script.
+//
+// All requests go through the background service worker via
+// `chrome.runtime.sendMessage` — that's where the auth token lives and
+// where Origin / CSRF behaviour is consistent. Calling our backend
+// directly from the content script would mean leaking the token into
+// the host page's process and tripping the host's CSP for off-origin
+// fetches.
+//
+// The background-side responder lives in `entrypoints/background.ts`.
+//
+// In tests + Node smoke-runs we expose `_internalsForTests` so a
+// fixture can swap in a deterministic `transport` instead of trying
+// to mock chrome.runtime.
+
+import { parseCreditState } from './credits.js'
+import type { Classification, CreditState, Grade, TokenUsage, UserSettings } from './types.js'
+
+export interface ClassifyResponse {
+  readonly success: true
+  readonly request_id: string
+  readonly classification: Classification
+  readonly latency_ms: number
+  /** REAL Haiku usage of the classify call (new backends only). */
+  readonly usage?: TokenUsage
+}
+
+/** What `classify()` hands the pipeline: the verdict + its real cost. */
+export interface ClassifyOutcome {
+  readonly classification: Classification
+  readonly usage?: TokenUsage
+}
+
+export interface GradeResponse {
+  readonly success: true
+  readonly request_id: string
+  readonly grade: Grade
+  readonly latency_ms: number
+}
+
+export interface SettingsResponse {
+  readonly success: true
+  readonly request_id: string
+  /** May be null when the user has no row yet (the migration's auto-default-row trigger should prevent this in practice). */
+  readonly settings: UserSettings | null
+  readonly latency_ms: number
+}
+
+/** Raw GET /api/credits envelope (fields validated by parseCreditState). */
+export interface CreditsResponse {
+  readonly success: true
+  readonly request_id: string
+  readonly enforced: boolean
+  readonly plan: 'free' | 'pro'
+  readonly allowance: number
+  readonly used_today: number
+  readonly remaining: number
+  readonly resets_at: string | null
+}
+
+export interface ApiErrorResponse {
+  readonly success: false
+  readonly error: string
+}
+
+/** Fields POST /api/settings accepts (partial patch; all optional). */
+export interface SettingsPatch {
+  readonly timezone?: string
+  readonly target_llm?: string
+  readonly tone?: string
+  readonly default_intensity?: 'gentle' | 'medium' | 'aggressive'
+  readonly work_context?: string
+  readonly token_budget?: number
+}
+
+export type Transport = (
+  message: BackgroundMessage,
+) => Promise<BackgroundResponse>
+
+/**
+ * Background-bound message format. Adding an endpoint = adding a variant
+ * here + a case in the background dispatcher.
+ */
+export type BackgroundMessage =
+  | { kind: 'classify'; prompt: string }
+  | { kind: 'grade'; prompt: string; category: string }
+  | { kind: 'get-settings' }
+  | { kind: 'get-credits' }
+  | { kind: 'save-settings'; patch: SettingsPatch }
+  | {
+      kind: 'rewrite-stream'
+      prompt: string
+      category: string
+      intent: string
+      intensity: 'gentle' | 'medium' | 'aggressive'
+      target_llm: string
+      stream_port: string
+    }
+
+export type BackgroundResponse =
+  | ClassifyResponse
+  | GradeResponse
+  | SettingsResponse
+  | CreditsResponse
+  | ApiErrorResponse
+
+/**
+ * Default transport: relays messages through chrome.runtime. Returns the
+ * background's response promise.
+ */
+const chromeTransport: Transport = (message) =>
+  new Promise((resolve, reject) => {
+    try {
+      chrome.runtime.sendMessage(message, (response: BackgroundResponse | undefined) => {
+        const lastError = chrome.runtime.lastError
+        if (lastError) {
+          reject(new Error(lastError.message))
+          return
+        }
+        if (!response) {
+          reject(new Error('No response from background.'))
+          return
+        }
+        resolve(response)
+      })
+    } catch (err) {
+      reject(err instanceof Error ? err : new Error(String(err)))
+    }
+  })
+
+let activeTransport: Transport = chromeTransport
+
+/**
+ * Classify a prompt. Resolves with the classification (+ the call's
+ * real token usage when the backend reports it) on success; throws an
+ * Error on failure (auth, rate limit, network).
+ */
+export async function classify(prompt: string): Promise<ClassifyOutcome> {
+  const response = await activeTransport({ kind: 'classify', prompt })
+  if (!response.success) throw new Error(response.error)
+  if (!('classification' in response)) {
+    throw new Error('Unexpected response shape for classify.')
+  }
+  const u = response.usage
+  const usage =
+    u &&
+    typeof u.input_tokens === 'number' &&
+    Number.isFinite(u.input_tokens) &&
+    u.input_tokens >= 0 &&
+    typeof u.output_tokens === 'number' &&
+    Number.isFinite(u.output_tokens) &&
+    u.output_tokens >= 0
+      ? { input_tokens: u.input_tokens, output_tokens: u.output_tokens }
+      : undefined
+  return {
+    classification: response.classification,
+    ...(usage !== undefined ? { usage } : {}),
+  }
+}
+
+/**
+ * Grade a prompt against a category's rubric. Pure-local on the backend
+ * (no LLM call), so this is sub-50ms typical.
+ */
+export async function grade(prompt: string, category: string): Promise<Grade> {
+  const response = await activeTransport({ kind: 'grade', prompt, category })
+  if (!response.success) throw new Error(response.error)
+  if (!('grade' in response)) {
+    throw new Error('Unexpected response shape for grade.')
+  }
+  return response.grade
+}
+
+/**
+ * Fetch the signed-in user's `user_settings` row. Returns null when no
+ * row exists yet (the migration's auto-default trigger should cover
+ * every authenticated user, but we don't assume).
+ *
+ * Throws on auth failure / rate limit / network — callers should
+ * try/catch and fall back to defaults rather than blocking the UI.
+ */
+export async function getSettings(): Promise<UserSettings | null> {
+  const response = await activeTransport({ kind: 'get-settings' })
+  if (!response.success) throw new Error(response.error)
+  if (!('settings' in response)) {
+    throw new Error('Unexpected response shape for get-settings.')
+  }
+  return response.settings
+}
+
+/**
+ * Read today's credit balance (GET /api/credits). Returns a validated
+ * CreditState, or null when signed-out / erroring / malformed — callers
+ * treat null as "hide the meter" and never block on it.
+ */
+export async function getCredits(): Promise<CreditState | null> {
+  let response: BackgroundResponse
+  try {
+    response = await activeTransport({ kind: 'get-credits' })
+  } catch {
+    return null
+  }
+  if (!response.success) return null
+  return parseCreditState(response)
+}
+
+/**
+ * Save a partial settings patch (POST /api/settings) — fire-and-forget.
+ * Used to push the browser timezone once after sign-in so credits reset
+ * at the user's own midnight. Never throws; a failure just means the
+ * reset falls back to UTC.
+ */
+export async function saveSettings(patch: SettingsPatch): Promise<void> {
+  try {
+    await activeTransport({ kind: 'save-settings', patch })
+  } catch {
+    /* best-effort */
+  }
+}
+
+/**
+ * Test seam — swap the transport for unit tests. Calls without args to
+ * restore the chrome.runtime transport. Returns the previous transport
+ * so test setup can save and restore.
+ */
+export function _setTransportForTests(t?: Transport): Transport {
+  const prev = activeTransport
+  activeTransport = t ?? chromeTransport
+  return prev
+}
